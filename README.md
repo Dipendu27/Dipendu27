@@ -1,47 +1,97 @@
-[![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)](https://www.linkedin.com/in/dipendu-mukherjee-4199a8226)
-<h1 align="center">Hi 👋, I'm Dipendu Mukherjee</h1>
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
-<h3 align="center">I am Dipendu Mukherjee, hailing from West Bengal. I am currently pursuing a degree in Computer Science and Engineering at the University of Engineering and Management in Jaipur. With a passion for technology, I am eager to learn and develop my skills in this field.</h3>
-<a height="200" href="https://github.com/DenverCoder1/readme-typing-svg"><img margin-top="500px" src="https://readme-typing-svg.herokuapp.com?lines=Eat;Code;Sleep;Repeat&width=75&height=45"></a></p>
+<div align="center">
+  <img src="https://profile-counter.glitch.me/Dipendu27/count.svg" alt="Profile Views" />
+</div>
 
+# Hi 👋, I'm Dipendu Mukherjee
+### **QA Engineer & DevOps-Aligned Cloud Automation Specialist**
 
-<img align="right" alt="Coding" width="400" src="https://github.com/Adam-pw/Adam-pw/blob/main/animation_500_kxa883sd.gif">
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=0E75B6&center=true&vCenter=true&width=600&height=50&lines=Automate+Everything.;Build+CI%2FCD+Pipelines.;Deploy+to+AWS+Cloud.;Benchmark+Local+LLMs." alt="Typing SVG" />
+</div>
 
+---
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=amankumarandro&label=Profile%20views&color=0e75b6&style=flat" alt="Dipendu27" /> </p>
+## 🚀 About Me
 
-<p align="left"> <a href="https://twitter.com/Dipendu27" target="blank"><img src="https://img.shields.io/twitter/follow/Dipendu27?logo=twitter&style=for-the-badge" alt="Dipendu27" /></a> </p>
+I am a highly technical QA Automation and DevOps-aligned engineer transitioning infrastructure monitoring and API testing from manual verification to robust, zero-touch cloud architectures. 
 
-- 🌱 I’m currently learning **Machine Learning, Python, Data Science, Graphic Designing.**
+- 🛠️ **Current Focus:** Building production-inspired CI/CD test frameworks, managing containerized microservice architectures, and optimizing local LLM performance.
+- 🎯 **Target Roles:** QA Automation Engineer | Cloud Automation Tester | DevOps Associate
+- 🗺️ **Location:** Kalyani, West Bengal, India
+- ⚡ **Fun Fact:** I train to failure in the gym and optimize pipelines to failure in the cloud—both require high intensity and resilience.
 
-- 💬 Ask me about **Python, C++, Data Structure And Algorithm**
+---
 
-- 📫 How to reach me **You can DM me on dipendu.mukherjee.27@gmail.com**
+## 🛠️ Core Tech Stack & Tools
 
-<!-- <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a> -->
-
-<h3 align="left">Connect with me:</h3>
+### **Automation & Testing**
 <p align="left">
-<a href="https://twitter.com/DipenduMukherj9" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Dipendu27" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/dipendu-mukherjee-4199a8226" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dipendu-mukherjee-4199a8226" height="30" width="40" /></a>
-<a href="https://instagram.com/dipendumukherjee27" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="dipendumukherjee27" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/dipendumukherjee27" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="Dipendu27" height="30" width="40" /></a>
-<p align="center" margin="0" >
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" alt="Postman" />
+  <img src="https://img.shields.io/badge/Newman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" alt="Newman" />
+  <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white" alt="Selenium" />
+  <img src="https://img.shields.io/badge/Rest_Assured-FF4500?style=for-the-badge&logo=API&logoColor=white" alt="REST Assured" />
 </p>
 
+### **DevOps & Infrastructure**
+<p align="left">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=Linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=GNU-Bash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=GitHub-Actions&logoColor=white" alt="GitHub Actions" />
+</p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> </p>
+### **Cloud Computing**
+<p align="left">
+  <img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=Amazon-EC2&logoColor=white" alt="AWS EC2" />
+  <img src="https://img.shields.io/badge/AWS_S3-569A31?style=for-the-badge&logo=Amazon-S3&logoColor=white" alt="AWS S3" />
+  <img src="https://img.shields.io/badge/AWS_IAM-DD344C?style=for-the-badge&logo=Amazon-AWS&logoColor=white" alt="AWS IAM" />
+</p>
 
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
-## 🔥 Streak Stats
-<a height="200" href="https://github.com/DenverCoder1/readme-typing-svg"><img margin-top="500px" src="https://readme-typing-svg.herokuapp.com?lines=I_Always;Ready;To;Code&width=75&height=45"></a></p>
+### **Languages & Frameworks**
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=C%2B%2B&logoColor=white" alt="C++" />
+</p>
 
+---
 
-<p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=amankumarandro&theme=algolia" alt="amankumarandro" /></p>
-<!-- <a align="left" ><img src="https://github-readme-streak-stats.herokuapp.com/?user=amankumarandro&theme=algolia" alt="amankumarandro"/><img align="right" src="https://github-readme-stats.vercel.app/api?username=amankumarandro&theme=algolia&show_icons=true&locale=en" alt="amankumarandro" /></a> -->
-<!-- <a><img align="right" src="https://github-readme-stats.vercel.app/api?username=amankumarandro&theme=algolia&show_icons=true&locale=en" alt="amankumarandro" /></a>
- -->
- <a> <img align='right' src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" width="150" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></img></a>
+## 📈 Featured Cloud Architectures
 
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+### 🌐 [30-Day DevOps Cloud Testing Journey](https://github.com/Dipendu27/devops-cloud-testin)
+A capstone repository demonstrating environment independence and telemetry tracking for live infrastructure monitoring.
+- **Dynamic Data Parsing:** Developed robust Bash scripts parsing live e-commerce arrays via `jq` loop tracking.
+- **Docker Multi-Tool:** Engineered containerized environments using Alpine Linux base layers to eliminate configuration drift.
+- **CI/CD Orchestration:** Built full GitHub Actions master pipelines executing automatic Node.js/Newman test collections and artifact rendering.
+- **Cloud Observability:** Provisioned secure AWS EC2 runtimes coupled with credentialless IAM policies to route time-series telemetry dumps to automated Amazon S3 buckets.
+
+---
+
+## 🧪 Current Research & Benchmarking
+- **Local LLM Performance:** Running automated evaluations on edge model topologies (Llama 3.2, Gemma) deployed inside local environments, tracing system efficiency, and calculating runtime structural metrics (Tokens Per Second).
+
+---
+
+## 📬 Connect with Me
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/dipendu-mukherjee-4199a8226" target="blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:dipendu.mukherjee.27@gmail.com" target="blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://twitter.com/Dipendu27" target="blank">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+  </a>
+  <a href="https://instagram.com/dipendumukherjee27" target="blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+</p>
+
+<p align="left"> 
+  <a href="https://auth.geeksforgeeks.org/user/dipendumukherjee27" target="blank">📊 GeeksforGeeks Profile</a> 
+</p>
+
+---
+*Optimizing system health indexes, one pipeline at a time.* 💻✨
