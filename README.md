@@ -111,17 +111,15 @@ A capstone repository demonstrating environment independence, CI/CD execution, a
 
 ⸻
 
-## 📊 GitHub Analytics
+📊 GitHub Analytics
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=Dipendu27&show_icons=true&theme=tokyonight&cache_seconds=1800" />
   <img height="170" src="https://streak-stats.demolab.com?user=Dipendu27&theme=tokyonight&cache_seconds=1800" />
 </p>
-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dipendu27&layout=compact&theme=tokyonight&cache_seconds=1800" />
 </p>
-
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dipendu27&theme=tokyo-night&hide_border=true" alt="GitHub Activity Graph" />
 </p>
@@ -161,6 +159,9 @@ AWS Deployment + Monitoring
 📬 Connect with Me
 
 <p align="center">
+  <a href="https://dipendu-mukherjee-portfolio.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-0E75B6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
   <a href="https://www.linkedin.com/in/dipendu-mukherjee-4199a8226" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
