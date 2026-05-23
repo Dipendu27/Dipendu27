@@ -145,7 +145,7 @@ motto: "Automate the pipeline.
 
 <br/>
 
-> **Goal:** Build a privacy-first, 100% local Retrieval-Augmented Generation (RAG) system running natively on Apple Silicon M5 — no cloud APIs, no data leaving the machine.
+> **Goal:** Build a privacy-first, 100% local RAG system running natively on Apple Silicon M5 — no cloud APIs, no data leaving the machine.
 
 ```
 RAG SYSTEM ARCHITECTURE (Target: Day 60)
@@ -186,8 +186,6 @@ RAG SYSTEM ARCHITECTURE (Target: Day 60)
 | 🚀 Fine-Tune + Deploy | 51–60 | LoRA on MLX, Streamlit UI, memory profiling |
 
 </div>
-
-**Completed so far:**
 
 ```bash
 [✅] Day 1 — Hardware verified: PyTorch MPS + Apple MLX on M5
@@ -231,12 +229,12 @@ RAG SYSTEM ARCHITECTURE (Target: Day 60)
 </div>
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Dipendu27&theme=tokyonight&hide_border=true&background=0D1117&stroke=0D1117&fire=FF5900&sideNums=00C9FF&currStreakNum=0E75B6&ring=0E75B6&dates=FFFFFF" width="60%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Dipendu27&theme=tokyonight&hide_border=true&background=0D1117&stroke=0D1117&fire=FF5900&sideNums=00C9FF&currStreakNum=0E75B6&ring=0E75B6&dates=FFFFFF" width="65%"/>
 </div>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Dipendu27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9FF&icon_color=0E75B6&text_color=FFFFFF&count_private=true&include_all_commits=true&rank_icon=github" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dipendu27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9FF&text_color=FFFFFF&langs_count=8" width="38%"/>
+<img src="https://dipendu27.vercel.app/api?username=Dipendu27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9FF&icon_color=0E75B6&text_color=FFFFFF&count_private=true&include_all_commits=true&rank_icon=github" width="48%"/>
+<img src="https://dipendu27.vercel.app/api/top-langs/?username=Dipendu27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9FF&text_color=FFFFFF&langs_count=8" width="38%"/>
 </div>
 
 ---
@@ -264,9 +262,7 @@ RAG SYSTEM ARCHITECTURE (Target: Day 60)
 ---
 
 <div align="center">
-
 <img src="https://user-images.githubusercontent.com/74038190/212747107-5b654ba5-31c6-4366-b42b-51b822e9bc52.gif" width="100%"/>
-
 </div>
 
 <div align="center">
