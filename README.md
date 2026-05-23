@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&duration=2500&pause=800&color=00C9FF&center=true&vCenter=true&width=650&lines=🐳+Containerizing+test+suites+with+Docker;⚙️+Building+CI%2FCD+pipelines+with+GitHub+Actions;☁️+Deploying+%26+monitoring+on+AWS+EC2+%2B+S3;📊+CloudWatch+alarms+%7C+IAM+roles+%7C+boto3;🔁+24%2F7+automated+testing+via+Linux+cron)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&duration=2500&pause=800&color=00C9FF&center=true&vCenter=true&width=650&lines=🐳+Containerizing+test+suites+with+Docker;⚙️+Building+CI%2FCD+pipelines+with+GitHub+Actions;☁️+Deploying+%26+monitoring+on+AWS+EC2+%2B+S3;🤖+Building+ML+Engineering+projects;🔁+24%2F7+automated+testing+via+Linux+cron)](https://git.io/typing-svg)
 
 </div>
 
@@ -19,7 +19,7 @@
 ```yaml
 name:     Dipendu Mukherjee
 from:     Kalyani, West Bengal, India 🇮🇳
-role:     QA Engineer → Cloud DevOps Tester
+role:     QA Engineer → Cloud DevOps + ML Engineer
 journey:  30 days. Zero fluff. 100% hands-on.
 stack:
   - Bash scripting & Linux sysadmin
@@ -27,7 +27,7 @@ stack:
   - GitHub Actions CI/CD
   - AWS EC2, S3, IAM, CloudWatch
   - Newman API testing
-  - Python + boto3 automation
+  - Python + boto3 + ML engineering
 targets:
   - InnoWave
   - Wipro
@@ -52,7 +52,9 @@ targets:
 
 ---
 
-## 🚀 30-Day DevOps Journey — What I Actually Built
+## 🚀 Featured Projects
+
+### ☁️ [30-Day DevOps Cloud Testing Journey](https://github.com/Dipendu27/devops-cloud-testin)
 
 > Not tutorials. Not copy-paste. **Real infrastructure, real errors, real fixes.**
 
@@ -74,6 +76,30 @@ targets:
 
 </div>
 
+```
+git push → GitHub Actions → Docker → AWS EC2 → S3 → CloudWatch
+```
+
+---
+
+### 🤖 [ML Engineering](https://github.com/Dipendu27/ML_Engineering)
+
+> Hands-on Machine Learning projects — from data preprocessing to model deployment.
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-ML%20Engineering-3776AB?style=flat-square&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-LLM%20Benchmarking-8A2BE2?style=flat-square)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-Models-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+
+</div>
+
+- 📊 Data analysis, feature engineering, model evaluation
+- 🤖 Local LLM benchmarking with Ollama — measuring tokens/sec, response time
+- 🔬 Experiment tracking and performance comparison
+- 🔗 Bridging ML workflows with DevOps automation pipelines
+
 ---
 
 ## 🛠 Tech Arsenal
@@ -94,37 +120,11 @@ targets:
 ![AWS IAM](https://img.shields.io/badge/AWS-IAM-DD344C?style=flat-square&logo=amazonaws&logoColor=white)
 ![CloudWatch](https://img.shields.io/badge/AWS-CloudWatch-FF4F8B?style=flat-square&logo=amazonaws&logoColor=white)
 ![Newman](https://img.shields.io/badge/Newman-API%20Testing-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Python](https://img.shields.io/badge/Python-boto3-3776AB?style=flat-square&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-boto3%20%7C%20ML-3776AB?style=flat-square&logo=python&logoColor=white)
 ![jq](https://img.shields.io/badge/jq-JSON%20Parsing-000000?style=flat-square)
 ![Cron](https://img.shields.io/badge/Linux-Cron%20Jobs-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 </div>
-
----
-
-## 📊 Pipeline at a Glance
-
-```
-   LOCAL DEV              VERSION CONTROL         CI/CD PIPELINE
-  ┌────────────┐          ┌──────────────┐        ┌──────────────────────────┐
-  │ Bash       │──push───▶│    GitHub    │───────▶│  GitHub Actions          │
-  │ Docker     │          │  main branch │        │  1. Build Docker image   │
-  │ Newman     │          └──────────────┘        │  2. Run Ubuy monitor     │
-  └────────────┘                                  │  3. Newman API tests     │
-                                                  │  4. Upload HTML report   │
-                                                  └────────────┬─────────────┘
-                                                               │ deploy
-                                                               ▼
-                         AWS CLOUD — Mumbai ap-south-1
-                    ┌──────────────────────────────────────┐
-                    │  EC2 Ubuntu 24.04                    │
-                    │  ┌──────────┐ ┌──────┐ ┌──────────┐ │
-                    │  │  Docker  │ │  S3  │ │CloudWatch│ │
-                    │  │container │ │ logs │ │  alarms  │ │
-                    │  └──────────┘ └──────┘ └──────────┘ │
-                    │  cron: */30 * * * * + @reboot        │
-                    └──────────────────────────────────────┘
-```
 
 ---
 
@@ -144,9 +144,10 @@ targets:
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Dipendu27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9FF&icon_color=0E75B6&text_color=FFFFFF&count_private=true&include_all_commits=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Dipendu27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9FF&text_color=FFFFFF&langs_count=8)
+<a href="https://github.com/Dipendu27">
+  <img src="https://github-readme-stats.vercel.app/api?username=Dipendu27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9FF&icon_color=0E75B6&text_color=FFFFFF&count_private=true&include_all_commits=true&cache_seconds=1800" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dipendu27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9FF&text_color=FFFFFF&langs_count=8&cache_seconds=1800" height="165" alt="Top Languages" />
+</a>
 
 </div>
 
@@ -161,7 +162,8 @@ targets:
 [✅] "Fort Knox"               → IAM roles — zero hardcoded credentials
 [✅] "Never Sleeps"            → 24/7 cron jobs running on cloud server
 [✅] "Big Brother"             → CloudWatch alarms watching everything
-[🔄] "Full Stack QA"          → Expanding cloud-native testing projects
+[✅] "Model Whisperer"         → LLM benchmarking with Ollama + Python
+[🔄] "Full Stack QA"          → Expanding cloud-native + ML testing projects
 ```
 
 ---
@@ -178,7 +180,6 @@ targets:
 <br/>
 
 *"The pipeline doesn't sleep. Neither does the ambition."*
-
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:00C9FF,100:0E75B6&height=120&section=footer" width="100%"/>
