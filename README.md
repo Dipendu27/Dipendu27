@@ -1,191 +1,168 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=blur&color=0:0E75B6,100:1DA1F2&height=200&section=header&text=DIPENDU%20MUKHERJEE&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Automate%20Everything.%20Deploy%20Anywhere.%20Break%20Nothing.&descAlignY=60&descAlign=50" width="100%"/>
-</div>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0E75B6,100:00C9FF&height=200&section=header&text=DIPENDU%20MUKHERJEE&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=QA%20%E2%86%92%20DevOps%20%E2%86%92%20Cloud%20Automation%20Engineer&descAlignY=62&descSize=16" width="100%"/>
+
+<br/>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=0E75B6&center=true&vCenter=true&random=false&width=600&lines=QA+Engineer+%E2%86%92+DevOps+Cloud+Tester;Docker+%7C+GitHub+Actions+%7C+AWS;If+it+runs+once%2C+automate+it+forever.;Building+pipelines+that+test+themselves.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&duration=2500&pause=800&color=00C9FF&center=true&vCenter=true&width=650&lines=🐳+Containerizing+test+suites+with+Docker;⚙️+Building+CI%2FCD+pipelines+with+GitHub+Actions;☁️+Deploying+%26+monitoring+on+AWS+EC2+%2B+S3;📊+CloudWatch+alarms+%7C+IAM+roles+%7C+boto3;🔁+24%2F7+automated+testing+via+Linux+cron)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-## `> ./about.sh`
+<table width="100%">
+<tr>
+<td width="55%" valign="top">
 
-<img align="right" src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="340px" alt="DevOps Animation" />
+### 🧑‍💻 Who Am I?
 
-```bash
-const dipenduMukherjee = {
-  location:  "Kalyani, West Bengal, India 🇮🇳",
-  role:      "Manual QA → DevOps Cloud Automation Engineer",
-  education: "30-Day Hands-On DevOps Transition Journey",
-  currently: [
-    "Building CI/CD pipelines with GitHub Actions",
-    "Containerizing test suites with Docker",
-    "Deploying & monitoring on AWS EC2 + S3",
-    "Automating everything that moves"
-  ],
-  targets:   ["InnoWave", "iNetFrame", "Wipro", "Rockstar Games"],
-  motto:     "If it runs once manually, it should run forever automatically."
-};
+```yaml
+name:     Dipendu Mukherjee
+from:     Kalyani, West Bengal, India 🇮🇳
+role:     QA Engineer → Cloud DevOps Tester
+journey:  30 days. Zero fluff. 100% hands-on.
+stack:
+  - Bash scripting & Linux sysadmin
+  - Docker containerization
+  - GitHub Actions CI/CD
+  - AWS EC2, S3, IAM, CloudWatch
+  - Newman API testing
+  - Python + boto3 automation
+targets:
+  - InnoWave
+  - Wipro
+  - iNetFrame
+  - Rockstar Games
 ```
 
-> *"Quality is not an act, it is a habit — automate the habit."*
+</td>
+<td width="45%" valign="top" align="center">
 
-<br clear="right"/>
+<img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="280px" alt="Cloud DevOps"/>
 
----
+<br/>
 
-## `> ps -ef | grep current_focus`
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Live-0E75B6?style=for-the-badge)](https://dipendu-mukherjee-portfolio.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dipendu-mukherjee-4199a8226)
+[![Gmail](https://img.shields.io/badge/Gmail-Mail_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dipendu.mukherjee.27@gmail.com)
 
-```bash
-dipendu@devops:~$ status
-☁️  Deploying test automation to AWS EC2 (Mumbai Region)
-🐳  Containerizing workflows with Docker Alpine
-⚙️  Running Newman API test suites in GitHub Actions CI/CD
-📊  Monitoring cloud infrastructure with AWS CloudWatch
-🔁  Scheduling 24/7 unattended tests with Linux cron + @reboot
-🛡️  Routing artifacts securely to S3 via IAM roles
-```
+</td>
+</tr>
+</table>
 
 ---
 
-## `> ifconfig`
+## 🚀 30-Day DevOps Journey — What I Actually Built
 
-<p align="left">
-  <a href="https://dipendu-mukherjee-portfolio.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-Visit%20Website-0E75B6?style=for-the-badge&logo=vercel&logoColor=white&color=071A2C" /></a>
-  <a href="https://www.linkedin.com/in/dipendu-mukherjee-4199a8226" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&color=071A2C" /></a>
-  <a href="mailto:dipendu.mukherjee.27@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&color=071A2C" /></a>
-  <a href="https://twitter.com/Dipendu27" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&color=071A2C" /></a>
-  <a href="https://instagram.com/dipendumukherjee27" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&color=071A2C" /></a>
-  <a href="https://auth.geeksforgeeks.org/user/dipendumukherjee27" target="_blank"><img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white&color=071A2C" /></a>
-</p>
-
----
-
-## `> ls -la ./skills`
+> Not tutorials. Not copy-paste. **Real infrastructure, real errors, real fixes.**
 
 <div align="center">
-  <table>
-    <tr>
-      <td valign="top" width="25%">
-        <h3 align="center">QA & Testing</h3>
-        <div align="center">
-          <img src="https://skillicons.dev/icons?i=postman,python,java&theme=dark" />
-          <br/>
-          <img src="https://img.shields.io/badge/Newman-FF6C37?style=flat-square&logo=Postman&logoColor=white" />
-          <img src="https://img.shields.io/badge/curl-073551?style=flat-square" />
-          <img src="https://img.shields.io/badge/jq-000000?style=flat-square" />
-        </div>
-      </td>
-      <td valign="top" width="25%">
-        <h3 align="center">DevOps & CI/CD</h3>
-        <div align="center">
-          <img src="https://skillicons.dev/icons?i=docker,github,linux,bash&theme=dark" />
-          <br/>
-          <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=GitHub-Actions&logoColor=white" />
-          <img src="https://img.shields.io/badge/Cron-444444?style=flat-square" />
-        </div>
-      </td>
-      <td valign="top" width="25%">
-        <h3 align="center">Cloud & Security</h3>
-        <div align="center">
-          <img src="https://skillicons.dev/icons?i=aws&theme=dark" />
-          <br/>
-          <img src="https://img.shields.io/badge/EC2-FF9900?style=flat-square&logo=amazon-ec2&logoColor=white" />
-          <img src="https://img.shields.io/badge/S3-569A31?style=flat-square&logo=amazon-s3&logoColor=white" />
-          <img src="https://img.shields.io/badge/IAM-DD344C?style=flat-square&logo=amazonaws&logoColor=white" />
-          <img src="https://img.shields.io/badge/CloudWatch-FF4F8B?style=flat-square&logo=amazonaws&logoColor=white" />
-        </div>
-      </td>
-      <td valign="top" width="25%">
-        <h3 align="center">Languages</h3>
-        <div align="center">
-          <img src="https://skillicons.dev/icons?i=python,java,cpp,vscode&theme=dark" />
-          <br/>
-          <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=GNU-Bash&logoColor=white" />
-          <img src="https://img.shields.io/badge/Ollama-8A2BE2?style=flat-square" />
-        </div>
-      </td>
-    </tr>
-  </table>
+
+| Day | What I Built | Stack |
+|:---:|---|---|
+| 1–3 | CLI mastery, HTTP protocols, port scanning | Bash, curl, nc |
+| 4–7 | Git workflows, PRs, branching, .gitignore | Git, GitHub |
+| 8–11 | Permissions, process management, log analysis, cron | Linux, chmod, ps, grep |
+| 12 | Advanced Bash — loops, functions, conditionals | Bash, arrays |
+| 13–14 | Docker containerization + GitHub Actions CI/CD | Docker Alpine, YAML |
+| 15–16 | AWS EC2 deployment + Newman API test reports | AWS, Newman, htmlextra |
+| 17–19 | JSON validation with jq, LLM benchmarking | jq, Python, Ollama |
+| 20–21 | Master CI/CD pipeline — build → test → artifact | GitHub Actions |
+| 22–25 | Cloud infra, Docker on EC2, IAM, S3 archiving | AWS EC2, S3, IAM |
+| 26 | 24/7 cron scheduling on EC2 (`*/30` + `@reboot`) | Linux cron |
+| 27 | CloudWatch CPU & status alarms via boto3 | boto3, CloudWatch |
+
 </div>
 
 ---
 
-## `> cat ./featured_project.md`
+## 🛠 Tech Arsenal
 
 <div align="center">
-  <a href="https://github.com/Dipendu27/devops-cloud-testin">
-    <img src="https://img.shields.io/badge/🚀%20Project-30--Day%20DevOps%20Cloud%20Testing%20Journey-0E75B6?style=for-the-badge" />
-  </a>
+<img src="https://skillicons.dev/icons?i=bash,python,java,docker,linux,aws,git,github,vscode&theme=dark&perline=9" />
 </div>
 
 <br/>
 
-```bash
-dipendu@devops:~$ cat pipeline.log
-
-[✅] Bash automation scripts    → curl, nc, jq, cron
-[✅] Docker containers          → Alpine Linux, isolated test envs
-[✅] GitHub Actions CI/CD       → auto build, test, report on every push
-[✅] AWS EC2 deployment         → Ubuntu 24.04, SSH, Docker in cloud
-[✅] S3 artifact archiving      → timestamped logs via IAM roles
-[✅] CloudWatch alarms          → CPU > 80% & status check via boto3
-[✅] Newman API test suite      → 3 endpoints, 6 assertions, HTML report
-[✅] 24/7 cron scheduling       → */30 * * * * + @reboot on EC2
-[✅] LLM benchmarking           → Ollama tokens/sec measurement
-
-Pipeline: git push → GitHub Actions → Docker → AWS EC2 → S3 → CloudWatch
-```
-
----
-
-## `> htop`
-
 <div align="center">
 
-![Dipendu's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Dipendu27&bg_color=0d1117&color=0E75B6&line=1DA1F2&point=FFFFFF&area=true&hide_border=true)
-
-<br/>
-
-<a href="https://github.com/Dipendu27">
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com?user=Dipendu27&theme=tokyonight&hide_border=true&background=0D1117&stroke=0D1117&fire=FF5900&sideNums=0E75B6&currStreakNum=1DA1F2&ring=1DA1F2" alt="GitHub Streak"/>
-</a>
-
-<br/>
-
-<a href="https://github.com/Dipendu27">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=Dipendu27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0E75B6&icon_color=1DA1F2&text_color=FFFFFF&count_private=true" alt="GitHub Stats"/>
-  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dipendu27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=0E75B6&text_color=FFFFFF" alt="Top Languages"/>
-</a>
+![Bash](https://img.shields.io/badge/Bash-Scripting-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Alpine%20Containers-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![AWS EC2](https://img.shields.io/badge/AWS-EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS-S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
+![AWS IAM](https://img.shields.io/badge/AWS-IAM-DD344C?style=flat-square&logo=amazonaws&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/AWS-CloudWatch-FF4F8B?style=flat-square&logo=amazonaws&logoColor=white)
+![Newman](https://img.shields.io/badge/Newman-API%20Testing-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Python](https://img.shields.io/badge/Python-boto3-3776AB?style=flat-square&logo=python&logoColor=white)
+![jq](https://img.shields.io/badge/jq-JSON%20Parsing-000000?style=flat-square)
+![Cron](https://img.shields.io/badge/Linux-Cron%20Jobs-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 </div>
 
 ---
 
-## `> cat ./philosophy.log`
+## 📊 Pipeline at a Glance
 
-```bash
-function devopsPhilosophy() {
-  while (true) {
-    writeTests();
-    containerizeEverything();
-    pushToGitHub();           // triggers CI/CD automatically
-    deployToCloud();
-    monitorWithCloudWatch();
-    if (testsFail()) {
-      checkLogs("s3://dipendu-qa-test-artifacts/logs/");
-      fixAndRepush();
-    }
-    // TODO: Sleep — but the cron job runs every 30 minutes anyway
-  }
-}
+```
+   LOCAL DEV              VERSION CONTROL         CI/CD PIPELINE
+  ┌────────────┐          ┌──────────────┐        ┌──────────────────────────┐
+  │ Bash       │──push───▶│    GitHub    │───────▶│  GitHub Actions          │
+  │ Docker     │          │  main branch │        │  1. Build Docker image   │
+  │ Newman     │          └──────────────┘        │  2. Run Ubuy monitor     │
+  └────────────┘                                  │  3. Newman API tests     │
+                                                  │  4. Upload HTML report   │
+                                                  └────────────┬─────────────┘
+                                                               │ deploy
+                                                               ▼
+                         AWS CLOUD — Mumbai ap-south-1
+                    ┌──────────────────────────────────────┐
+                    │  EC2 Ubuntu 24.04                    │
+                    │  ┌──────────┐ ┌──────┐ ┌──────────┐ │
+                    │  │  Docker  │ │  S3  │ │CloudWatch│ │
+                    │  │container │ │ logs │ │  alarms  │ │
+                    │  └──────────┘ └──────┘ └──────────┘ │
+                    │  cron: */30 * * * * + @reboot        │
+                    └──────────────────────────────────────┘
 ```
 
+---
+
+## 📈 GitHub Stats
+
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212747107-5b654ba5-31c6-4366-b42b-51b822e9bc52.gif" width="100%">
+
+![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Dipendu27&bg_color=0d1117&color=00C9FF&line=0E75B6&point=FFFFFF&area=true&hide_border=true)
+
 </div>
+
+<div align="center">
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Dipendu27&theme=tokyonight&hide_border=true&background=0D1117&stroke=0D1117&fire=FF5900&sideNums=00C9FF&currStreakNum=0E75B6&ring=0E75B6&dates=FFFFFF)
+
+</div>
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Dipendu27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9FF&icon_color=0E75B6&text_color=FFFFFF&count_private=true&include_all_commits=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Dipendu27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9FF&text_color=FFFFFF&langs_count=8)
+
+</div>
+
+---
+
+## 🏆 Achievements Unlocked
+
+```bash
+[✅] "Script Kiddie No More"   → Wrote production Bash automation from scratch
+[✅] "Ship It"                 → CI/CD pipeline live on GitHub Actions
+[✅] "In The Cloud"            → EC2 instance deployed in AWS Mumbai
+[✅] "Fort Knox"               → IAM roles — zero hardcoded credentials
+[✅] "Never Sleeps"            → 24/7 cron jobs running on cloud server
+[✅] "Big Brother"             → CloudWatch alarms watching everything
+[🔄] "Full Stack QA"          → Expanding cloud-native testing projects
+```
 
 ---
 
@@ -193,8 +170,15 @@ function devopsPhilosophy() {
 
 ![Profile views](https://komarev.com/ghpvc/?username=Dipendu27&style=for-the-badge&color=0E75B6)
 
-<sub>// Deployed with 💻 + ☁️ by Dipendu Mukherjee — one pipeline at a time.</sub>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dipendu-mukherjee-4199a8226)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Dipendu27)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/dipendumukherjee27)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://auth.geeksforgeeks.org/user/dipendumukherjee27)
+
+<br/>
+
+*"The pipeline doesn't sleep. Neither does the ambition."*
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1DA1F2,100:0E75B6&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00C9FF,100:0E75B6&height=120&section=footer" width="100%"/>
