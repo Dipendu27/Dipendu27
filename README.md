@@ -26,7 +26,7 @@ scripts → containers → CI/CD pipelines → live AWS cloud deployment.
 
 - 🛠️ **Currently Building:** Automated QA pipelines with Docker, GitHub Actions & AWS
 - 🎯 **Target Roles:** QA Automation Engineer · Cloud Tester · DevOps Associate
-- 📍 **Location:** Kalyani, West Bengal, India
+- 📍 **Location:** Jaipur, Rajasthan, India
 - 💡 **Philosophy:** If it runs once manually, it should run forever automatically
 
 <br clear="right"/>
