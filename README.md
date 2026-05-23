@@ -45,7 +45,7 @@ motto: "Automate the pipeline.
 </td>
 <td width="48%" valign="top" align="center">
 
-<img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="260px"/>
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="280px"/>
 
 <br/><br/>
 
@@ -76,6 +76,10 @@ motto: "Automate the pipeline.
 
 <br/>
 
+<table width="100%">
+<tr>
+<td width="60%" valign="top">
+
 <div align="center">
 <img src="https://img.shields.io/badge/Bash-Automation-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-Alpine-2496ED?style=flat-square&logo=docker&logoColor=white"/>
@@ -88,36 +92,43 @@ motto: "Automate the pipeline.
 <br/>
 
 ```
-   LOCAL DEV              GITHUB                  CI/CD PIPELINE
-  ┌────────────┐        ┌──────────┐        ┌──────────────────────────┐
-  │ Bash       │─push──▶│  GitHub  │───────▶│  GitHub Actions          │
-  │ Docker     │        │   main   │        │  Build → Test → Report   │
-  │ Newman     │        └──────────┘        └────────────┬─────────────┘
-  └────────────┘                                         │ deploy
-                                                         ▼
-                        AWS CLOUD — Mumbai ap-south-1
-                   ┌──────────────────────────────────────────┐
-                   │  EC2 Ubuntu 24.04                        │
-                   │  ┌──────────┐  ┌──────┐  ┌───────────┐  │
-                   │  │  Docker  │  │  S3  │  │CloudWatch │  │
-                   │  │container │  │ logs │  │  alarms   │  │
-                   │  └──────────┘  └──────┘  └───────────┘  │
-                   │  cron: */30 * * * * + @reboot            │
-                   └──────────────────────────────────────────┘
+LOCAL → GitHub → CI/CD → AWS Cloud
+  │                          │
+  │    GitHub Actions        │
+  │    Build Docker image    │
+  │    Run Ubuy monitor  ────┤
+  │    Newman API tests      │
+  │    Upload HTML report    │
+  │                          ▼
+  │              EC2 Ubuntu 24.04
+  │              Docker + S3 + CloudWatch
+  └──── cron */30 + @reboot ─┘
 ```
 
-<div align="center">
-
-| Milestone | What I Built | Stack |
+| Phase | Built | Stack |
 |:---:|---|---|
-| Phase 1 | CLI, HTTP protocols, port scanning | Bash, curl, nc |
-| Phase 2 | Git workflows, PRs, branching | Git, GitHub |
-| Phase 3 | Linux permissions, process mgmt, cron | chmod, ps, grep |
-| Phase 4 | Docker containerization + CI/CD | Docker Alpine, GitHub Actions |
-| Phase 5 | AWS EC2 deployment + Newman reports | AWS, Newman, htmlextra |
-| Phase 6 | IAM, S3 archiving, CloudWatch alarms | boto3, CloudWatch |
+| 1 | CLI, HTTP, port scanning | Bash, curl, nc |
+| 2 | Git, PRs, branching | Git, GitHub |
+| 3 | Linux permissions, cron | chmod, ps, grep |
+| 4 | Docker + CI/CD | Docker Alpine |
+| 5 | AWS EC2 + Newman | AWS, Newman |
+| 6 | IAM, S3, CloudWatch | boto3 |
 
-</div>
+</td>
+<td width="40%" valign="top" align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="240px"/>
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/212257472-08d4cf6e-f176-4bc4-89c0-1b27cb57f97e.gif" width="60px"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7763.gif" width="60px"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="60px"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="60px"/>
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -132,12 +143,25 @@ motto: "Automate the pipeline.
 
 <br/>
 
+<table width="100%">
+<tr>
+<td width="40%" valign="top" align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212749171-b84692a8-2b04-4e3b-93ca-ac14705da224.gif" width="240px"/>
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="60px"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="60px"/>
+<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="60px"/>
+
+</td>
+<td width="60%" valign="top">
+
 <div align="center">
 <img src="https://img.shields.io/badge/Apple_MLX-M5%20GPU-000000?style=flat-square&logo=apple&logoColor=white"/>
 <img src="https://img.shields.io/badge/PyTorch-MPS%20Backend-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
 <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-Data%20Engineering-013243?style=flat-square&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-Clinical%20Data-150458?style=flat-square&logo=pandas&logoColor=white"/>
 <img src="https://img.shields.io/badge/ChromaDB-Vector%20Store-FF6B35?style=flat-square"/>
 <img src="https://img.shields.io/badge/LangChain-RAG-1C3C3C?style=flat-square"/>
 <img src="https://img.shields.io/badge/LoRA-Fine--Tuning-FF0080?style=flat-square"/>
@@ -145,54 +169,33 @@ motto: "Automate the pipeline.
 
 <br/>
 
-> **Goal:** Build a privacy-first, 100% local RAG system running natively on Apple Silicon M5 — no cloud APIs, no data leaving the machine.
-
 ```
-RAG SYSTEM ARCHITECTURE (Target: Day 60)
-
-  📄 Clinical PDFs
-        │
-        ▼ LangChain ingestion
-  📦 Text Chunking
-        │
-        ▼ Hugging Face embeddings
-  🔢 Dense Vectors
-        │
-        ▼ batch insert
-  🗄️ ChromaDB (Local Vector DB)
-        │
-        ▼ semantic search
-  🔍 Nearest Neighbor Retrieval
-        │
-        ▼ context injection
-  🧠 Apple MLX LLM (Llama-3-8B-4bit)
-        │
-        ▼ LoRA fine-tuned on medical terms
-  💬 Streamlit Chat UI
-        │
-        ▼ 100% LOCAL — zero data leaves machine
-  ✅ Private AI Answer
+📄 PDFs → LangChain → Chunks
+    → Embeddings → ChromaDB
+    → Semantic Search
+    → MLX LLM (Llama-3-8B-4bit)
+    → LoRA fine-tuned
+    → Streamlit UI
+    → 100% LOCAL ✅
 ```
-
-<div align="center">
 
 | Phase | Days | Focus |
 |:---:|:---:|---|
-| 🏗️ Foundations | 1–10 | Environment setup, NumPy, Pandas, MLX autograd |
-| 📊 Classical ML | 11–20 | Linear/Logistic regression, XGBoost, PCA, K-Means |
-| 🧠 Deep Learning | 21–30 | PyTorch MPS, MLP, Transformers, embeddings, ChromaDB |
-| 👁️ Vision + MLX | 31–40 | YOLO, medical imaging, MLX LLM, model quantization |
-| ⚙️ Agentic RAG | 41–50 | LangChain, PDF parsing, chunking, semantic search |
-| 🚀 Fine-Tune + Deploy | 51–60 | LoRA on MLX, Streamlit UI, memory profiling |
+| 🏗️ Foundations | 1–10 | NumPy, Pandas, MLX autograd |
+| 📊 Classical ML | 11–20 | XGBoost, PCA, K-Means |
+| 🧠 Deep Learning | 21–30 | PyTorch MPS, Transformers |
+| 👁️ Vision + MLX | 31–40 | YOLO, quantization |
+| ⚙️ Agentic RAG | 41–50 | LangChain, ChromaDB |
+| 🚀 Ship It | 51–60 | LoRA, Streamlit, deploy |
 
-</div>
+</td>
+</tr>
+</table>
 
 ```bash
 [✅] Day 1 — Hardware verified: PyTorch MPS + Apple MLX on M5
 [✅] Day 2 — Clinical data engine: NumPy biomarkers + Pandas imputation
-[✅] Day 3 — Vector math: dot products + MLX matrix multiplication
-             Hypertension vs Blood Pressure similarity: 0.74
-             Hypertension vs Diabetes similarity:       0.17
+[✅] Day 3 — Dot product similarity: Hypertension vs BP = 0.74
 [✅] Day 4 — MLX autograd: loss = 17.0, gradient = 14.0
 [🔄] Day 5+ — In progress...
 ```
@@ -200,6 +203,20 @@ RAG SYSTEM ARCHITECTURE (Target: Day 60)
 ---
 
 ## 🛠 Full Tech Arsenal
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/212257472-08d4cf6e-f176-4bc4-89c0-1b27cb57f97e.gif" width="48px"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7763.gif" width="48px"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="48px"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="48px"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="48px"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="48px"/>
+<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="48px"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb9-7808-4fbd-b014-b6dd572e5db6.gif" width="48px"/>
+<img src="https://user-images.githubusercontent.com/74038190/212281756-450a45cc-fee1-4b13-b8f3-5351a4eb872a.gif" width="48px"/>
+</div>
+
+<br/>
 
 <div align="center">
 <img src="https://skillicons.dev/icons?i=bash,python,java,docker,linux,aws,git,github,vscode,pytorch&theme=dark&perline=10"/>
@@ -211,12 +228,11 @@ RAG SYSTEM ARCHITECTURE (Target: Day 60)
 
 | Domain | Tools |
 |---|---|
-| **Cloud & DevOps** | AWS EC2, S3, IAM, CloudWatch, Docker, GitHub Actions, Linux Cron |
+| **Cloud & DevOps** | AWS EC2, S3, IAM, CloudWatch, Docker, GitHub Actions, Cron |
 | **ML & AI** | Apple MLX, PyTorch MPS, NumPy, Pandas, scikit-learn, XGBoost |
 | **LLM & RAG** | Ollama, LangChain, ChromaDB, Hugging Face, LoRA, Streamlit |
 | **QA & Testing** | Newman, Postman, curl, jq, Bash automation |
 | **Languages** | Python 3.11, Bash, Java, C++ |
-| **Hardware** | MacBook Pro M5 (Apple Silicon), AWS EC2 Ubuntu 24.04 |
 
 </div>
 
