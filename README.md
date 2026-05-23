@@ -194,5 +194,5 @@ EC2 cron job (every 30 min) → Docker → S3 archive
 </p>
 
 <p align="center">
-  <em>Building systems that test themselves — so engineers can focus on what matters.</em>
+  <em>Building systems that test themselves — so developers can focus on what matters.</em>
 </p>
