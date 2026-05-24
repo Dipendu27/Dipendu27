@@ -197,7 +197,9 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 [✅] Day 2 — Clinical data engine: NumPy biomarkers + Pandas imputation
 [✅] Day 3 — Dot product similarity: Hypertension vs BP = 0.74
 [✅] Day 4 — MLX autograd: loss = 17.0, gradient = 14.0
-[🔄] Day 5+ — In progress...
+[✅] Day 5 — Pandas EDA: Analyzed 5.1k records and flagged 201 missing BMI values
+[✅] Day 6 — Cleaning pipeline: Imputed median BMI and serialized RAG text profiles
+[🔄] Day 7 — In progress...
 ```
 
 ---
