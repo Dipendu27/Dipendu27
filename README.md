@@ -35,8 +35,8 @@ building:
   - Cloud CI/CD automation pipelines
   - Apple MLX + PyTorch MPS workflows
 targets:
-  - InnoWave · Wipro · iNetFrame
-  - Rockstar Games · ML/AI companies
+  - Software Testing Roles
+  - ML/AI companies
 motto: "Automate the pipeline.
         Train the model.
         Ship both."
