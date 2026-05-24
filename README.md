@@ -138,7 +138,7 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 <a href="https://github.com/Dipendu27/ML_Engineering">
 <img src="https://img.shields.io/badge/Repo-ML__Engineering-8A2BE2?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-<img src="https://img.shields.io/badge/Status-In%20Progress%20(Day%204%2F60)-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Day%2023%2F60%20Complete-orange?style=for-the-badge"/>
 </div>
 
 <br/>
@@ -162,6 +162,8 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 <img src="https://img.shields.io/badge/Apple_MLX-M5%20GPU-000000?style=flat-square&logo=apple&logoColor=white"/>
 <img src="https://img.shields.io/badge/PyTorch-MPS%20Backend-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
 <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/scikit--learn-Classical%20ML-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
+<img src="https://img.shields.io/badge/XGBoost-Gradient%20Boosting-AA0000?style=flat-square"/>
 <img src="https://img.shields.io/badge/ChromaDB-Vector%20Store-FF6B35?style=flat-square"/>
 <img src="https://img.shields.io/badge/LangChain-RAG-1C3C3C?style=flat-square"/>
 <img src="https://img.shields.io/badge/LoRA-Fine--Tuning-FF0080?style=flat-square"/>
@@ -179,27 +181,49 @@ LOCAL → GitHub → CI/CD → AWS Cloud
     → 100% LOCAL ✅
 ```
 
-| Phase | Days | Focus |
+| Phase | Days | Status |
 |:---:|:---:|---|
-| 🏗️ Foundations | 1–10 | NumPy, Pandas, MLX autograd |
-| 📊 Classical ML | 11–20 | XGBoost, PCA, K-Means |
-| 🧠 Deep Learning | 21–30 | PyTorch MPS, Transformers |
-| 👁️ Vision + MLX | 31–40 | YOLO, quantization |
-| ⚙️ Agentic RAG | 41–50 | LangChain, ChromaDB |
-| 🚀 Ship It | 51–60 | LoRA, Streamlit, deploy |
+| 🏗️ Foundations | 1–10 | ✅ Complete |
+| 📊 Classical ML | 11–20 | ✅ Complete |
+| 🧠 Deep Learning | 21–30 | 🔄 Day 23/30 |
+| 👁️ Vision + MLX | 31–40 | ⏳ Upcoming |
+| ⚙️ Agentic RAG | 41–50 | ⏳ Upcoming |
+| 🚀 Fine-Tune + Ship | 51–60 | ⏳ Upcoming |
 
 </td>
 </tr>
 </table>
 
 ```bash
-[✅] Day 1 — Hardware verified: PyTorch MPS + Apple MLX on M5
-[✅] Day 2 — Clinical data engine: NumPy biomarkers + Pandas imputation
-[✅] Day 3 — Dot product similarity: Hypertension vs BP = 0.74
-[✅] Day 4 — MLX autograd: loss = 17.0, gradient = 14.0
-[✅] Day 5 — Pandas EDA: Analyzed 5.1k records and flagged 201 missing BMI values
-[✅] Day 6 — Cleaning pipeline: Imputed median BMI and serialized RAG text profiles
-[🔄] Day 7 — In progress...
+# ✅ PHASE 1 COMPLETE — Foundations (Days 1–10)
+[✅] Day 1  — Hardware: PyTorch MPS + Apple MLX on M5 verified
+[✅] Day 2  — NumPy biomarkers + Pandas clinical data imputation
+[✅] Day 3  — MLX dot products: Hypertension vs BP = 0.74
+[✅] Day 4  — MLX autograd: loss=17.0, gradient=14.0
+[✅] Day 5  — EDA: 5,110 patient records, 201 missing BMI values flagged
+[✅] Day 6  — Data cleaning: median BMI imputed, RAG text profiles serialized
+[✅] Day 7  — ChromaDB: semantic patient retrieval working locally
+[✅] Day 8  — Backprop: weight optimized to 4.97 (target: 5.0)
+[✅] Day 9  — Matplotlib/Seaborn: age dist, BMI scatter, heatmap dashboard
+[✅] Day 10 — Real-world EDA: messy Kaggle-style data cleaned & visualized
+
+# ✅ PHASE 2 COMPLETE — Classical ML (Days 11–20)
+[✅] Day 11 — Linear Regression: BP predictor, MAE = 3.63 mmHg
+[✅] Day 12 — Logistic Regression: hypertension classifier, 84.5% accuracy
+[✅] Day 13 — Decision Tree: priority follow-up classifier, 100% accuracy
+[✅] Day 14 — Random Forest: readmission classifier, feature importance chart
+[✅] Day 15 — XGBoost: diabetes risk, 83.67% accuracy, 64.4% confidence
+[✅] Day 16 — XGBoost tuning: saved $213/prediction via RandomizedSearchCV
+[✅] Day 17 — K-Means: 3 patient clusters discovered from unlabeled data
+[✅] Day 18 — PCA: 30D → 2D, retained 63.24% variance
+[✅] Day 19 — Model eval: ROC-AUC=0.963 on rare-disease imbalanced dataset
+[✅] Day 20 — ML Pipeline: SMOTE + Random Forest + threshold tuning
+
+# 🔄 PHASE 3 IN PROGRESS — Deep Learning (Days 21–30)
+[✅] Day 21 — PyTorch tensors: shapes, NumPy bridge, matrix multiplication
+[✅] Day 22 — MLP: nn.Module with ReLU + sigmoid, patient risk forward pass
+[✅] Day 23 — MPS benchmark: M5 GPU 1.69x faster than CPU on 10k×10k matmul
+[🔄] Day 24 — Neural Network Training: forward pass, loss, backpropagation...
 ```
 
 ---
@@ -231,8 +255,10 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 | Domain | Tools |
 |---|---|
 | **Cloud & DevOps** | AWS EC2, S3, IAM, CloudWatch, Docker, GitHub Actions, Cron |
-| **ML & AI** | Apple MLX, PyTorch MPS, NumPy, Pandas, scikit-learn, XGBoost |
+| **Classical ML** | scikit-learn, XGBoost, K-Means, PCA, SMOTE, imbalanced-learn |
+| **Deep Learning** | PyTorch MPS, Apple MLX, MLP, Transformers, embeddings |
 | **LLM & RAG** | Ollama, LangChain, ChromaDB, Hugging Face, LoRA, Streamlit |
+| **Data Engineering** | NumPy, Pandas, Matplotlib, Seaborn |
 | **QA & Testing** | Newman, Postman, curl, jq, Bash automation |
 | **Languages** | Python 3.11, Bash, Java, C++ |
 
@@ -269,8 +295,11 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 ║ [✅] "Fort Knox"              → IAM roles, zero hardcoded creds  ║
 ║ [✅] "Never Sleeps"           → 24/7 cron on cloud server        ║
 ║ [✅] "Big Brother"            → CloudWatch alarms watching all   ║
-║ [✅] "Silicon Whisperer"      → PyTorch MPS + MLX on M5 GPU      ║
-║ [✅] "Data Doctor"            → Clinical data engineering done   ║
+║ [✅] "Silicon Whisperer"      → M5 GPU 1.69x faster than CPU     ║
+║ [✅] "Data Doctor"            → 23 clinical ML scripts complete  ║
+║ [✅] "Tree Surgeon"           → Decision trees, Random Forest    ║
+║ [✅] "Gradient Descent"       → XGBoost + MLX backpropagation    ║
+║ [🔄] "Neural Architect"      → MLP training in progress         ║
 ║ [🔄] "Vector Master"         → Embeddings + ChromaDB (Day 30)   ║
 ║ [🔄] "RAG Architect"         → Full local RAG system (Day 50)   ║
 ║ [🔄] "Model Surgeon"         → LoRA fine-tuning (Day 53)        ║
