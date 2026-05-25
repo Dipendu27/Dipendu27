@@ -138,7 +138,7 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 <a href="https://github.com/Dipendu27/ML_Engineering">
 <img src="https://img.shields.io/badge/Repo-ML__Engineering-8A2BE2?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-<img src="https://img.shields.io/badge/Status-Day%2023%2F60%20Complete-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Day%2031%2F60%20Complete-orange?style=for-the-badge"/>
 </div>
 
 <br/>
@@ -185,8 +185,8 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 |:---:|:---:|---|
 | 🏗️ Foundations | 1–10 | ✅ Complete |
 | 📊 Classical ML | 11–20 | ✅ Complete |
-| 🧠 Deep Learning | 21–30 | 🔄 Day 23/30 |
-| 👁️ Vision + MLX | 31–40 | ⏳ Upcoming |
+| 🧠 Deep Learning | 21–30 | ✅ Complete |
+| 👁️ Vision + MLX | 31–40 | 🔄 Day 31/40 |
 | ⚙️ Agentic RAG | 41–50 | ⏳ Upcoming |
 | 🚀 Fine-Tune + Ship | 51–60 | ⏳ Upcoming |
 
@@ -219,11 +219,21 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 [✅] Day 19 — Model eval: ROC-AUC=0.963 on rare-disease imbalanced dataset
 [✅] Day 20 — ML Pipeline: SMOTE + Random Forest + threshold tuning
 
-# 🔄 PHASE 3 IN PROGRESS — Deep Learning (Days 21–30)
+# ✅ PHASE 3 COMPLETE — Deep Learning (Days 21–30)
 [✅] Day 21 — PyTorch tensors: shapes, NumPy bridge, matrix multiplication
 [✅] Day 22 — MLP: nn.Module with ReLU + sigmoid, patient risk forward pass
 [✅] Day 23 — MPS benchmark: M5 GPU 1.69x faster than CPU on 10k×10k matmul
-[🔄] Day 24 — Neural Network Training: forward pass, loss, backpropagation...
+[✅] Day 24 — Neural Network Training: BCE loss + Adam optimizer on MPS
+[✅] Day 25 — Transformers: self-attention from scratch with Q/K/V tensors
+[✅] Day 26 — Hugging Face: DistilBERT pipeline + manual tokenizer inference
+[✅] Day 27 — NLP Processing: BERT tokenizer, padding, attention masks
+[✅] Day 28 — Vectorization: MiniLM sentence embeddings + cosine similarity
+[✅] Day 29 — Model Benchmarking: MiniLM vs BGE-Small on 500-doc corpus
+[✅] Day 30 — ChromaDB RAG: BGE-Small embeddings + semantic retrieval
+
+# 🔄 PHASE 4 IN PROGRESS — Vision + MLX (Days 31–40)
+[✅] Day 31 — Local LLM: TinyLlama-1.1B-Chat via Hugging Face on MPS
+[🔄] Day 32 — YOLO-MLX: real-time vision natively on Apple Silicon...
 ```
 
 ---
@@ -257,7 +267,7 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 | **Cloud & DevOps** | AWS EC2, S3, IAM, CloudWatch, Docker, GitHub Actions, Cron |
 | **Classical ML** | scikit-learn, XGBoost, K-Means, PCA, SMOTE, imbalanced-learn |
 | **Deep Learning** | PyTorch MPS, Apple MLX, MLP, Transformers, embeddings |
-| **LLM & RAG** | Ollama, LangChain, ChromaDB, Hugging Face, LoRA, Streamlit |
+| **LLM & RAG** | TinyLlama, Ollama, LangChain, ChromaDB, Hugging Face, LoRA, Streamlit |
 | **Data Engineering** | NumPy, Pandas, Matplotlib, Seaborn |
 | **QA & Testing** | Newman, Postman, curl, jq, Bash automation |
 | **Languages** | Python 3.11, Bash, Java, C++ |
@@ -296,11 +306,14 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 ║ [✅] "Never Sleeps"           → 24/7 cron on cloud server        ║
 ║ [✅] "Big Brother"            → CloudWatch alarms watching all   ║
 ║ [✅] "Silicon Whisperer"      → M5 GPU 1.69x faster than CPU     ║
-║ [✅] "Data Doctor"            → 23 clinical ML scripts complete  ║
+║ [✅] "Data Doctor"            → 31 clinical ML scripts complete  ║
 ║ [✅] "Tree Surgeon"           → Decision trees, Random Forest    ║
 ║ [✅] "Gradient Descent"       → XGBoost + MLX backpropagation    ║
-║ [🔄] "Neural Architect"      → MLP training in progress         ║
-║ [🔄] "Vector Master"         → Embeddings + ChromaDB (Day 30)   ║
+║ [✅] "Neural Architect"       → MLP trained end-to-end on MPS    ║
+║ [✅] "Attention Is All"       → Self-attention built from scratch ║
+║ [✅] "Vector Master"          → BGE-Small + ChromaDB RAG working ║
+║ [✅] "Tiny But Mighty"        → TinyLlama running 100% locally   ║
+║ [🔄] "Vision Quest"          → YOLO on Apple Silicon (Day 32)   ║
 ║ [🔄] "RAG Architect"         → Full local RAG system (Day 50)   ║
 ║ [🔄] "Model Surgeon"         → LoRA fine-tuning (Day 53)        ║
 ╚══════════════════════════════════════════════════════════════════╝
