@@ -310,7 +310,7 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 ║ [✅] "Tree Surgeon"          → Decision trees, Random Forest    ║
 ║ [✅] "Gradient Descent"      → XGBoost + MLX backpropagation    ║
 ║ [✅] "Neural Architect"      → MLP trained end-to-end on MPS    ║
-║ [✅] "Attention Is All"      → Self-attention built from scratch ║
+║ [✅] "Attention Is All"      → Self-attention built from scratch║
 ║ [✅] "Vector Master"         → BGE-Small + ChromaDB RAG working ║
 ║ [✅] "Tiny But Mighty"       → TinyLlama running 100% locally   ║
 ║ [🔄] "Vision Quest"          → YOLO on Apple Silicon (Day 32)   ║
