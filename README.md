@@ -297,7 +297,7 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 
 ```bash
 ╔══════════════════════════════════════════════════════════════════╗
-║                    ACHIEVEMENT LOG                               ║
+║                        ACHIEVEMENT LOG                           ║
 ╠══════════════════════════════════════════════════════════════════╣
 ║ [✅] "Script Kiddie No More" → Production Bash automation       ║
 ║ [✅] "Ship It"               → CI/CD pipeline on GitHub Actions ║
