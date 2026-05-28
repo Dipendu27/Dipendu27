@@ -29,7 +29,7 @@ from:     Kalyani, West Bengal, India 🇮🇳
 roles:
   - QA Engineer → DevOps Cloud Tester
   - AIML Engineer (60-Day Journey)
-hardware: MacBook Pro M5
+hardware: MacBook Pro M5 (16GB RAM)
 building:
   - Privacy-first local RAG system
   - Cloud CI/CD automation pipelines
@@ -121,10 +121,33 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08d4cf6e-f176-4bc4-89c0-1b27cb57f97e.gif" width="60px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7763.gif" width="60px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="60px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="60px"/>
+```
+┌─────────────────────────────┐
+│   🚀 DEPLOYMENT PIPELINE    │
+├─────────────────────────────┤
+│  git push                   │
+│      │                      │
+│      ▼                      │
+│  ┌──────────────┐           │
+│  │ GitHub       │           │
+│  │ Actions CI   │           │
+│  └──────┬───────┘           │
+│         │ docker build      │
+│         ▼                   │
+│  ┌──────────────┐           │
+│  │ Newman API   │           │
+│  │ Test Suite   │           │
+│  └──────┬───────┘           │
+│         │ on:pass           │
+│         ▼                   │
+│  ┌──────────────┐           │
+│  │ AWS EC2      │ ←─ S3     │
+│  │ Ubuntu 24    │ ←─ IAM    │
+│  │ CloudWatch ✅ │           │
+│  └──────────────┘           │
+│  cron: */30 + @reboot       │
+└─────────────────────────────┘
+```
 
 </td>
 </tr>
@@ -138,7 +161,7 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 <a href="https://github.com/Dipendu27/ML_Engineering">
 <img src="https://img.shields.io/badge/Repo-ML__Engineering-8A2BE2?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-<img src="https://img.shields.io/badge/Status-Day%2031%2F60%20Complete-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Day%2032%2F60%20Complete-orange?style=for-the-badge"/>
 </div>
 
 <br/>
@@ -151,9 +174,42 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="60px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="60px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="60px"/>
+```
+┌──────────────────────────────┐
+│   🧠 LOCAL RAG ARCHITECTURE  │
+├──────────────────────────────┤
+│                              │
+│  📄 PDF / Clinical Notes     │
+│         │                    │
+│         ▼                    │
+│  ┌─────────────┐             │
+│  │  LangChain  │ chunk+parse │
+│  └──────┬──────┘             │
+│         │                    │
+│         ▼                    │
+│  ┌─────────────┐             │
+│  │  BGE-Small  │ embed→384d  │
+│  └──────┬──────┘             │
+│         │                    │
+│         ▼                    │
+│  ┌─────────────┐             │
+│  │  ChromaDB   │ vector store│
+│  └──────┬──────┘             │
+│         │  semantic search   │
+│         ▼                    │
+│  ┌─────────────┐             │
+│  │  TinyLlama  │ local MPS   │
+│  │  1.1B Chat  │ generation  │
+│  └──────┬──────┘             │
+│         │                    │
+│         ▼                    │
+│  ┌─────────────┐             │
+│  │  Streamlit  │ browser UI  │
+│  └─────────────┘             │
+│                              │
+│  🔒 100% LOCAL — 0 API calls │
+└──────────────────────────────┘
+```
 
 </td>
 <td width="60%" valign="top">
@@ -186,7 +242,7 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 | 🏗️ Foundations | 1–10 | ✅ Complete |
 | 📊 Classical ML | 11–20 | ✅ Complete |
 | 🧠 Deep Learning | 21–30 | ✅ Complete |
-| 👁️ Vision + MLX | 31–40 | 🔄 Day 31/40 |
+| 👁️ Vision + MLX | 31–40 | 🔄 Day 32/40 |
 | ⚙️ Agentic RAG | 41–50 | ⏳ Upcoming |
 | 🚀 Fine-Tune + Ship | 51–60 | ⏳ Upcoming |
 
@@ -233,7 +289,8 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 
 # 🔄 PHASE 4 IN PROGRESS — Vision + MLX (Days 31–40)
 [✅] Day 31 — Local LLM: TinyLlama-1.1B-Chat via Hugging Face on MPS
-[🔄] Day 32 — YOLO-MLX: real-time vision natively on Apple Silicon...
+[✅] Day 32 — Computer Vision: real-time object detection on Apple Silicon MPS
+[🔄] Day 33 — Medical Imaging: vision applied to anomaly detection in scans...
 ```
 
 ---
@@ -267,6 +324,7 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 | **Cloud & DevOps** | AWS EC2, S3, IAM, CloudWatch, Docker, GitHub Actions, Cron |
 | **Classical ML** | scikit-learn, XGBoost, K-Means, PCA, SMOTE, imbalanced-learn |
 | **Deep Learning** | PyTorch MPS, Apple MLX, MLP, Transformers, embeddings |
+| **Computer Vision** | torchvision, MPS-accelerated object detection, OpenCV |
 | **LLM & RAG** | TinyLlama, Ollama, LangChain, ChromaDB, Hugging Face, LoRA, Streamlit |
 | **Data Engineering** | NumPy, Pandas, Matplotlib, Seaborn |
 | **QA & Testing** | Newman, Postman, curl, jq, Bash automation |
@@ -297,23 +355,24 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 
 ```bash
 ╔══════════════════════════════════════════════════════════════════╗
-║                        ACHIEVEMENT LOG                           ║
+║                    ACHIEVEMENT LOG                               ║
 ╠══════════════════════════════════════════════════════════════════╣
-║ [✅] "Script Kiddie No More" → Production Bash automation       ║
-║ [✅] "Ship It"               → CI/CD pipeline on GitHub Actions ║
-║ [✅] "In The Cloud"          → EC2 deployed in AWS Mumbai       ║
-║ [✅] "Fort Knox"             → IAM roles, zero hardcoded creds  ║
-║ [✅] "Never Sleeps"          → 24/7 cron on cloud server        ║
-║ [✅] "Big Brother"           → CloudWatch alarms watching all   ║
-║ [✅] "Silicon Whisperer"     → M5 GPU 1.69x faster than CPU     ║
-║ [✅] "Data Doctor"           → 31 clinical ML scripts complete  ║
-║ [✅] "Tree Surgeon"          → Decision trees, Random Forest    ║
-║ [✅] "Gradient Descent"      → XGBoost + MLX backpropagation    ║
-║ [✅] "Neural Architect"      → MLP trained end-to-end on MPS    ║
-║ [✅] "Attention Is All"      → Self-attention built from scratch║
-║ [✅] "Vector Master"         → BGE-Small + ChromaDB RAG working ║
-║ [✅] "Tiny But Mighty"       → TinyLlama running 100% locally   ║
-║ [🔄] "Vision Quest"          → YOLO on Apple Silicon (Day 32)   ║
+║ [✅] "Script Kiddie No More"  → Production Bash automation       ║
+║ [✅] "Ship It"                → CI/CD pipeline on GitHub Actions ║
+║ [✅] "In The Cloud"           → EC2 deployed in AWS Mumbai       ║
+║ [✅] "Fort Knox"              → IAM roles, zero hardcoded creds  ║
+║ [✅] "Never Sleeps"           → 24/7 cron on cloud server        ║
+║ [✅] "Big Brother"            → CloudWatch alarms watching all   ║
+║ [✅] "Silicon Whisperer"      → M5 GPU 1.69x faster than CPU     ║
+║ [✅] "Data Doctor"            → 32 clinical ML scripts complete  ║
+║ [✅] "Tree Surgeon"           → Decision trees, Random Forest    ║
+║ [✅] "Gradient Descent"       → XGBoost + MLX backpropagation    ║
+║ [✅] "Neural Architect"       → MLP trained end-to-end on MPS    ║
+║ [✅] "Attention Is All"       → Self-attention built from scratch ║
+║ [✅] "Vector Master"          → BGE-Small + ChromaDB RAG working ║
+║ [✅] "Tiny But Mighty"        → TinyLlama running 100% locally   ║
+║ [✅] "Eagle Eye"              → Object detection on Apple Silicon ║
+║ [🔄] "Vision Quest"          → Medical imaging anomaly detection ║
 ║ [🔄] "RAG Architect"         → Full local RAG system (Day 50)   ║
 ║ [🔄] "Model Surgeon"         → LoRA fine-tuning (Day 53)        ║
 ╚══════════════════════════════════════════════════════════════════╝
