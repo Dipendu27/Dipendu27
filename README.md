@@ -327,29 +327,29 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 
 ## 🏆 Achievements Unlocked
 
-```bash
-╔══════════════════════════════════════════════════════════════════╗
-║                    ACHIEVEMENT LOG                               ║
-╠══════════════════════════════════════════════════════════════════╣
-║ [✅] "Script Kiddie No More"  → Production Bash automation       ║
-║ [✅] "Ship It"                → CI/CD pipeline on GitHub Actions ║
-║ [✅] "In The Cloud"           → EC2 deployed in AWS Mumbai       ║
-║ [✅] "Fort Knox"              → IAM roles, zero hardcoded creds  ║
-║ [✅] "Never Sleeps"           → 24/7 cron on cloud server        ║
-║ [✅] "Big Brother"            → CloudWatch alarms watching all   ║
-║ [✅] "Silicon Whisperer"      → M5 GPU 1.69x faster than CPU     ║
-║ [✅] "Data Doctor"            → 32 clinical ML scripts complete  ║
-║ [✅] "Tree Surgeon"           → Decision trees, Random Forest    ║
-║ [✅] "Gradient Descent"       → XGBoost + MLX backpropagation    ║
-║ [✅] "Neural Architect"       → MLP trained end-to-end on MPS    ║
-║ [✅] "Attention Is All"       → Self-attention built from scratch ║
-║ [✅] "Vector Master"          → BGE-Small + ChromaDB RAG working ║
-║ [✅] "Tiny But Mighty"        → TinyLlama running 100% locally   ║
-║ [✅] "Eagle Eye"              → Object detection on Apple Silicon ║
-║ [🔄] "Vision Quest"          → Medical imaging anomaly detection ║
-║ [🔄] "RAG Architect"         → Full local RAG system (Day 50)   ║
-║ [🔄] "Model Surgeon"         → LoRA fine-tuning (Day 53)        ║
-╚══════════════════════════════════════════════════════════════════╝
+```
+╔═════════════════════════════════════════════════════════╗
+║                   ACHIEVEMENT LOG                       ║
+╠═════════════════════════════════════════════════════════╣
+║  [✅]  "Script Kiddie No More" → Bash automation        ║
+║  [✅]  "Ship It"               → CI/CD GitHub Actions   ║
+║  [✅]  "In The Cloud"          → EC2 in AWS Mumbai      ║
+║  [✅]  "Fort Knox"             → IAM, zero hard creds   ║
+║  [✅]  "Never Sleeps"          → 24/7 cron on cloud     ║
+║  [✅]  "Big Brother"           → CloudWatch on all      ║
+║  [✅]  "Silicon Whisperer"     → M5 GPU 1.69x faster    ║
+║  [✅]  "Data Doctor"           → 32 ML scripts done     ║
+║  [✅]  "Tree Surgeon"          → DecisionTree + RF      ║
+║  [✅]  "Gradient Descent"      → XGBoost + MLX backprop ║
+║  [✅]  "Neural Architect"      → MLP trained on MPS     ║
+║  [✅]  "Attention Is All"      → Self-attn from scratch ║
+║  [✅]  "Vector Master"         → ChromaDB RAG working   ║
+║  [✅]  "Tiny But Mighty"       → TinyLlama 100% local   ║
+║  [✅]  "Eagle Eye"             → Object detect on M5    ║
+║  [🔄]  "Vision Quest"         → Medical imaging next   ║
+║  [🔄]  "RAG Architect"        → Full RAG system Day 50 ║
+║  [🔄]  "Model Surgeon"        → LoRA fine-tune Day 53  ║
+╚═════════════════════════════════════════════════════════╝
 ```
 
 ---
