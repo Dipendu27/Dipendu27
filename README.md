@@ -29,7 +29,7 @@ from:     Kalyani, West Bengal, India 🇮🇳
 roles:
   - QA Engineer → DevOps Cloud Tester
   - AIML Engineer (60-Day Journey)
-hardware: MacBook Pro M5
+hardware: MacBook Pro M5 (16GB RAM)
 building:
   - Privacy-first local RAG system
   - Cloud CI/CD automation pipelines
@@ -121,32 +121,29 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 
 <br/>
 
+<img src="https://user-images.githubusercontent.com/74038190/212257472-08d4cf6e-f176-4bc4-89c0-1b27cb57f97e.gif" width="60px"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7763.gif" width="60px"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="60px"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="60px"/>
+
+<br/><br/>
+
 ```
-┌─────────────────────────────┐
-│   🚀 DEPLOYMENT PIPELINE    │
-├─────────────────────────────┤
-│  git push                   │
-│      │                      │
-│      ▼                      │
-│  ┌──────────────┐           │
-│  │ GitHub       │           │
-│  │ Actions CI   │           │
-│  └──────┬───────┘           │
-│         │ docker build      │
-│         ▼                   │
-│  ┌──────────────┐           │
-│  │ Newman API   │           │
-│  │ Test Suite   │           │
-│  └──────┬───────┘           │
-│         │ on:pass           │
-│         ▼                   │
-│  ┌──────────────┐           │
-│  │ AWS EC2      │ ←─ S3     │
-│  │ Ubuntu 24    │ ←─ IAM    │
-│  │ CloudWatch ✅ │           │
-│  └──────────────┘           │
-│  cron: */30 + @reboot       │
-└─────────────────────────────┘
+ git push → Actions CI
+      │
+      ▼
+ 🐳 docker build
+      │
+      ▼
+ 🧪 Newman Tests
+      │ on: pass
+      ▼
+ ☁️  AWS EC2
+ S3 │ IAM │ CloudWatch
+      │
+      ▼
+ ⏰  cron */30 + @reboot
+ 📊  24/7 Monitoring ✅
 ```
 
 </td>
@@ -174,41 +171,32 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 
 <br/>
 
+<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="60px"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="60px"/>
+<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="60px"/>
+
+<br/><br/>
+
 ```
-┌──────────────────────────────┐
-│   🧠 LOCAL RAG ARCHITECTURE  │
-├──────────────────────────────┤
-│                              │
-│  📄 PDF / Clinical Notes     │
-│         │                    │
-│         ▼                    │
-│  ┌─────────────┐             │
-│  │  LangChain  │ chunk+parse │
-│  └──────┬──────┘             │
-│         │                    │
-│         ▼                    │
-│  ┌─────────────┐             │
-│  │  BGE-Small  │ embed→384d  │
-│  └──────┬──────┘             │
-│         │                    │
-│         ▼                    │
-│  ┌─────────────┐             │
-│  │  ChromaDB   │ vector store│
-│  └──────┬──────┘             │
-│         │  semantic search   │
-│         ▼                    │
-│  ┌─────────────┐             │
-│  │  TinyLlama  │ local MPS   │
-│  │  1.1B Chat  │ generation  │
-│  └──────┬──────┘             │
-│         │                    │
-│         ▼                    │
-│  ┌─────────────┐             │
-│  │  Streamlit  │ browser UI  │
-│  └─────────────┘             │
-│                              │
-│  🔒 100% LOCAL — 0 API calls │
-└──────────────────────────────┘
+ 📄 PDFs / Clinical Notes
+        │
+        ▼
+ 🔗 LangChain  chunk+parse
+        │
+        ▼
+ 🧬 BGE-Small  embed→384d
+        │
+        ▼
+ 🗃️  ChromaDB  vector store
+        │ semantic search
+        ▼
+ 🤖 TinyLlama  local MPS
+    1.1B Chat  generation
+        │
+        ▼
+ 🖥️  Streamlit  browser UI
+
+ 🔒 100% LOCAL — 0 API calls
 ```
 
 </td>
@@ -296,20 +284,6 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 ---
 
 ## 🛠 Full Tech Arsenal
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08d4cf6e-f176-4bc4-89c0-1b27cb57f97e.gif" width="48px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7763.gif" width="48px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="48px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="48px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="48px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="48px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="48px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb9-7808-4fbd-b014-b6dd572e5db6.gif" width="48px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212281756-450a45cc-fee1-4b13-b8f3-5351a4eb872a.gif" width="48px"/>
-</div>
-
-<br/>
 
 <div align="center">
 <img src="https://skillicons.dev/icons?i=bash,python,java,docker,linux,aws,git,github,vscode,pytorch&theme=dark&perline=10"/>
