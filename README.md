@@ -29,7 +29,7 @@ from:     Kalyani, West Bengal, India 🇮🇳
 roles:
   - QA Engineer → DevOps Cloud Tester
   - AIML Engineer (60-Day Journey)
-hardware: MacBook Pro M5 (16GB RAM)
+hardware: MacBook Pro M5
 building:
   - Privacy-first local RAG system
   - Cloud CI/CD automation pipelines
@@ -346,9 +346,9 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 ║  [✅]  "Vector Master"         → ChromaDB RAG working   ║
 ║  [✅]  "Tiny But Mighty"       → TinyLlama 100% local   ║
 ║  [✅]  "Eagle Eye"             → Object detect on M5    ║
-║  [🔄]  "Vision Quest"         → Medical imaging next   ║
-║  [🔄]  "RAG Architect"        → Full RAG system Day 50 ║
-║  [🔄]  "Model Surgeon"        → LoRA fine-tune Day 53  ║
+║  [🔄]  "Vision Quest"         → Medical imaging next    ║
+║  [🔄]  "RAG Architect"        → Full RAG system Day 50  ║
+║  [🔄]  "Model Surgeon"        → LoRA fine-tune Day 53   ║
 ╚═════════════════════════════════════════════════════════╝
 ```
 
