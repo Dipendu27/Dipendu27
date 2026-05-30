@@ -29,7 +29,7 @@ from:     Kalyani, West Bengal, India 🇮🇳
 roles:
   - QA Engineer → DevOps Cloud Tester
   - AIML Engineer (60-Day Journey)
-hardware: MacBook Pro M5
+hardware: MacBook Pro M5 (16GB RAM)
 building:
   - Privacy-first local RAG system
   - Cloud CI/CD automation pipelines
@@ -158,7 +158,7 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 <a href="https://github.com/Dipendu27/ML_Engineering">
 <img src="https://img.shields.io/badge/Repo-ML__Engineering-8A2BE2?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-<img src="https://img.shields.io/badge/Status-Day%2032%2F60%20Complete-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Day%2036%2F60%20Complete-orange?style=for-the-badge"/>
 </div>
 
 <br/>
@@ -230,7 +230,7 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 | 🏗️ Foundations | 1–10 | ✅ Complete |
 | 📊 Classical ML | 11–20 | ✅ Complete |
 | 🧠 Deep Learning | 21–30 | ✅ Complete |
-| 👁️ Vision + MLX | 31–40 | 🔄 Day 32/40 |
+| 👁️ Vision + MLX | 31–40 | 🔄 Day 36/40 |
 | ⚙️ Agentic RAG | 41–50 | ⏳ Upcoming |
 | 🚀 Fine-Tune + Ship | 51–60 | ⏳ Upcoming |
 
@@ -277,8 +277,12 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 
 # 🔄 PHASE 4 IN PROGRESS — Vision + MLX (Days 31–40)
 [✅] Day 31 — Local LLM: TinyLlama-1.1B-Chat via Hugging Face on MPS
-[✅] Day 32 — Computer Vision: real-time object detection on Apple Silicon MPS
-[🔄] Day 33 — Medical Imaging: vision applied to anomaly detection in scans...
+[✅] Day 32 — YOLO-MLX: real-time object detection natively on Mac MPS
+[✅] Day 33 — Medical Imaging: vision applied to anomaly detection in scans
+[✅] Day 34 — Memory Optimization: bypassing PyTorch overheads for MLX
+[✅] Day 35 — Apple MLX LLM: intro to local text generation via MLX engine
+[✅] Day 36 — Model Quantization: 16-bit → 4-bit compression for 16GB RAM
+[🔄] Day 37 — Downloading Quantized Models: mlx-lm + Llama-3-8B-4bit...
 ```
 
 ---
@@ -298,8 +302,9 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 | **Cloud & DevOps** | AWS EC2, S3, IAM, CloudWatch, Docker, GitHub Actions, Cron |
 | **Classical ML** | scikit-learn, XGBoost, K-Means, PCA, SMOTE, imbalanced-learn |
 | **Deep Learning** | PyTorch MPS, Apple MLX, MLP, Transformers, embeddings |
-| **Computer Vision** | torchvision, MPS-accelerated object detection, OpenCV |
-| **LLM & RAG** | TinyLlama, Ollama, LangChain, ChromaDB, Hugging Face, LoRA, Streamlit |
+| **Computer Vision** | torchvision, YOLO-MLX, MPS object detection, medical imaging |
+| **LLM & RAG** | TinyLlama, mlx-lm, Ollama, LangChain, ChromaDB, Hugging Face, LoRA, Streamlit |
+| **Quantization** | 4-bit / 16-bit compression, mlx-lm quantized models, 16GB RAM optimization |
 | **Data Engineering** | NumPy, Pandas, Matplotlib, Seaborn |
 | **QA & Testing** | Newman, Postman, curl, jq, Bash automation |
 | **Languages** | Python 3.11, Bash, Java, C++ |
@@ -338,15 +343,18 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 ║  [✅]  "Never Sleeps"          → 24/7 cron on cloud     ║
 ║  [✅]  "Big Brother"           → CloudWatch on all      ║
 ║  [✅]  "Silicon Whisperer"     → M5 GPU 1.69x faster    ║
-║  [✅]  "Data Doctor"           → 32 ML scripts done     ║
+║  [✅]  "Data Doctor"           → 36 ML scripts done     ║
 ║  [✅]  "Tree Surgeon"          → DecisionTree + RF      ║
 ║  [✅]  "Gradient Descent"      → XGBoost + MLX backprop ║
 ║  [✅]  "Neural Architect"      → MLP trained on MPS     ║
 ║  [✅]  "Attention Is All"      → Self-attn from scratch ║
 ║  [✅]  "Vector Master"         → ChromaDB RAG working   ║
 ║  [✅]  "Tiny But Mighty"       → TinyLlama 100% local   ║
-║  [✅]  "Eagle Eye"             → Object detect on M5    ║
-║  [🔄]  "Vision Quest"         → Medical imaging next    ║
+║  [✅]  "Eagle Eye"             → YOLO detection on Mac  ║
+║  [✅]  "Vision Doctor"         → Medical imaging scans  ║
+║  [✅]  "Memory Hacker"         → MLX overhead bypassed  ║
+║  [✅]  "4-Bit Surgeon"         → 16-bit → 4-bit quant   ║
+║  [🔄]  "MLX Whisperer"        → Llama-3-8B-4bit Day 37  ║
 ║  [🔄]  "RAG Architect"        → Full RAG system Day 50  ║
 ║  [🔄]  "Model Surgeon"        → LoRA fine-tune Day 53   ║
 ╚═════════════════════════════════════════════════════════╝
