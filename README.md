@@ -363,10 +363,6 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 ---
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0E75B6,50:00C9FF,100:8A2BE2&height=100&section=footer&animation=fadeIn" width="100%"/>
-</div>
-
-<div align="center">
 
 ![Profile views](https://komarev.com/ghpvc/?username=Dipendu27&style=for-the-badge&color=0E75B6)
 
@@ -380,3 +376,5 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 *"Two journeys. One engineer. Infinite pipelines."*
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0E75B6,50:00C9FF,100:8A2BE2&height=100&section=footer&animation=fadeIn" width="100%"/>
