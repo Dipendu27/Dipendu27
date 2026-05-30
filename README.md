@@ -354,9 +354,9 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 ║  [✅]  "Vision Doctor"         → Medical imaging scans  ║
 ║  [✅]  "Memory Hacker"         → MLX overhead bypassed  ║
 ║  [✅]  "4-Bit Surgeon"         → 16-bit → 4-bit quant   ║
-║  [🔄]  "MLX Whisperer"        → Llama-3-8B-4bit Day 37 ║
-║  [🔄]  "RAG Architect"        → Full RAG system Day 50  ║
-║  [🔄]  "Model Surgeon"        → LoRA fine-tune Day 53   ║
+║  [🔄]  "MLX Whisperer"         → Llama-3-8B-4bit Day 37 ║
+║  [🔄]  "RAG Architect"         → Full RAG system Day 50 ║
+║  [🔄]  "Model Surgeon"         → LoRA fine-tune Day 53  ║
 ╚═════════════════════════════════════════════════════════╝
 ```
 
