@@ -158,7 +158,7 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 <a href="https://github.com/Dipendu27/ML_Engineering">
 <img src="https://img.shields.io/badge/Repo-ML__Engineering-8A2BE2?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-<img src="https://img.shields.io/badge/Status-Day%2040%2F60%20Complete-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Day%2036%2F60%20Complete-orange?style=for-the-badge"/>
 </div>
 
 <br/>
@@ -190,8 +190,8 @@ LOCAL → GitHub → CI/CD → AWS Cloud
  🗃️  ChromaDB  vector store
         │ semantic search
         ▼
- 🤖 Qwen2.5-4bit local MPS
-    streaming + top-p tuned
+ 🤖 TinyLlama  local MPS
+    1.1B Chat  generation
         │
         ▼
  🖥️  Streamlit  browser UI
@@ -208,22 +208,30 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/scikit--learn-Classical%20ML-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
 <img src="https://img.shields.io/badge/XGBoost-Gradient%20Boosting-AA0000?style=flat-square"/>
-<img src="https://img.shields.io/badge/YOLOv8-Vision-00FFFF?style=flat-square"/>
 <img src="https://img.shields.io/badge/ChromaDB-Vector%20Store-FF6B35?style=flat-square"/>
 <img src="https://img.shields.io/badge/LangChain-RAG-1C3C3C?style=flat-square"/>
-<img src="https://img.shields.io/badge/mlx--lm-4bit%20Inference-8A2BE2?style=flat-square"/>
 <img src="https://img.shields.io/badge/LoRA-Fine--Tuning-FF0080?style=flat-square"/>
 </div>
 
 <br/>
+
+```
+📄 PDFs → LangChain → Chunks
+    → Embeddings → ChromaDB
+    → Semantic Search
+    → MLX LLM (Llama-3-8B-4bit)
+    → LoRA fine-tuned
+    → Streamlit UI
+    → 100% LOCAL ✅
+```
 
 | Phase | Days | Status |
 |:---:|:---:|---|
 | 🏗️ Foundations | 1–10 | ✅ Complete |
 | 📊 Classical ML | 11–20 | ✅ Complete |
 | 🧠 Deep Learning | 21–30 | ✅ Complete |
-| 👁️ Vision + MLX | 31–40 | ✅ Complete |
-| ⚙️ Agentic RAG | 41–50 | 🔄 Starting |
+| 👁️ Vision + MLX | 31–40 | 🔄 Day 36/40 |
+| ⚙️ Agentic RAG | 41–50 | ⏳ Upcoming |
 | 🚀 Fine-Tune + Ship | 51–60 | ⏳ Upcoming |
 
 </td>
@@ -267,38 +275,19 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 [✅] Day 29 — Model Benchmarking: MiniLM vs BGE-Small on 500-doc corpus
 [✅] Day 30 — ChromaDB RAG: BGE-Small embeddings + semantic retrieval
 
-# ✅ PHASE 4 COMPLETE — Vision + MLX (Days 31–40)
+# 🔄 PHASE 4 IN PROGRESS — Vision + MLX (Days 31–40)
 [✅] Day 31 — Local LLM: TinyLlama-1.1B-Chat via Hugging Face on MPS
-[✅] Day 32 — YOLOv8: real-time object detection on Apple Silicon MPS
-[✅] Day 33 — Prompt Templates: Llama-3 vs Mistral chat formatting compared
-[✅] Day 34 — Memory Optimization: PyTorch eager vs Apple MLX lazy evaluation
-[✅] Day 35 — Apple MLX LLM: native MLX-LM with 4-bit Qwen2.5 model
-[✅] Day 36 — Model Quantization: TinyLlama converted HF → 4-bit MLX locally
-[✅] Day 37 — Quantized Models: community 4-bit Llama-3 loaded via mlx-lm
-[✅] Day 38 — Local Inference: streaming chat loop with conversation memory
-[✅] Day 39 — Hardware Profiling: Metal memory during quantized MLX inference
-[✅] Day 40 — Inference Optimization: top-p sampling + repetition penalties
-
-# 🔄 PHASE 5 STARTING — Agentic RAG (Days 41–50)
+[✅] Day 32 — YOLO-MLX: real-time object detection natively on Mac MPS
+[✅] Day 33 — Medical Imaging: vision applied to anomaly detection in scans
+[✅] Day 34 — Memory Optimization: bypassing PyTorch overheads for MLX
+[✅] Day 35 — Apple MLX LLM: intro to local text generation via MLX engine
+[✅] Day 36 — Model Quantization: 16-bit → 4-bit compression for 16GB RAM
+[🔄] Day 37 — Downloading Quantized Models: mlx-lm + Llama-3-8B-4bit...
 ```
 
 ---
 
 ## 🛠 Full Tech Arsenal
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08d4cf6e-f176-4bc4-89c0-1b27cb57f97e.gif" width="48px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7763.gif" width="48px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="48px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="48px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="48px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="48px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="48px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb9-7808-4fbd-b014-b6dd572e5db6.gif" width="48px"/>
-<img src="https://user-images.githubusercontent.com/74038190/212281756-450a45cc-fee1-4b13-b8f3-5351a4eb872a.gif" width="48px"/>
-</div>
-
-<br/>
 
 <div align="center">
 <img src="https://skillicons.dev/icons?i=bash,python,java,docker,linux,aws,git,github,vscode,pytorch&theme=dark&perline=10"/>
@@ -312,11 +301,10 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 |---|---|
 | **Cloud & DevOps** | AWS EC2, S3, IAM, CloudWatch, Docker, GitHub Actions, Cron |
 | **Classical ML** | scikit-learn, XGBoost, K-Means, PCA, SMOTE, imbalanced-learn |
-| **Deep Learning** | PyTorch MPS, Apple MLX, MLP, Transformers, self-attention |
-| **Computer Vision** | YOLOv8, torchvision, MPS object detection, medical imaging |
-| **LLM & Inference** | TinyLlama, Qwen2.5, Llama-3, mlx-lm, streaming chat, top-p sampling |
-| **Quantization** | 4-bit MLX models, HF → MLX conversion, Metal memory profiling |
-| **RAG & Embeddings** | LangChain, ChromaDB, BGE-Small, MiniLM, cosine similarity |
+| **Deep Learning** | PyTorch MPS, Apple MLX, MLP, Transformers, embeddings |
+| **Computer Vision** | torchvision, YOLO-MLX, MPS object detection, medical imaging |
+| **LLM & RAG** | TinyLlama, mlx-lm, Ollama, LangChain, ChromaDB, Hugging Face, LoRA, Streamlit |
+| **Quantization** | 4-bit / 16-bit compression, mlx-lm quantized models, 16GB RAM optimization |
 | **Data Engineering** | NumPy, Pandas, Matplotlib, Seaborn |
 | **QA & Testing** | Newman, Postman, curl, jq, Bash automation |
 | **Languages** | Python 3.11, Bash, Java, C++ |
@@ -355,28 +343,27 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 ║  [✅]  "Never Sleeps"          → 24/7 cron on cloud     ║
 ║  [✅]  "Big Brother"           → CloudWatch on all      ║
 ║  [✅]  "Silicon Whisperer"     → M5 GPU 1.69x faster    ║
-║  [✅]  "Data Doctor"           → 40 ML scripts done     ║
+║  [✅]  "Data Doctor"           → 36 ML scripts done     ║
 ║  [✅]  "Tree Surgeon"          → DecisionTree + RF      ║
-║  [✅]  "Gradient Descent"      → XGBoost + backprop     ║
+║  [✅]  "Gradient Descent"      → XGBoost + MLX backprop ║
 ║  [✅]  "Neural Architect"      → MLP trained on MPS     ║
 ║  [✅]  "Attention Is All"      → Self-attn from scratch ║
 ║  [✅]  "Vector Master"         → ChromaDB RAG working   ║
 ║  [✅]  "Tiny But Mighty"       → TinyLlama 100% local   ║
-║  [✅]  "Eagle Eye"             → YOLOv8 on Apple MPS    ║
-║  [✅]  "Memory Hacker"         → Metal memory profiled  ║
-║  [✅]  "4-Bit Surgeon"         → HF → 4-bit MLX quant   ║
-║  [✅]  "Chat Whisperer"        → Streaming + top-p done ║
-║  [✅]  "Phase 4 Cleared"       → Vision+MLX complete    ║
-║  [🔄]  "RAG Architect"         → LangChain RAG Day 41+  ║
-║  [🔄]  "Model Surgeon"         → LoRA fine-tune Day 53  ║
-║  [🔄]  "Shipped to Prod"       → Streamlit UI Day 55    ║
+║  [✅]  "Eagle Eye"             → YOLO detection on Mac  ║
+║  [✅]  "Vision Doctor"         → Medical imaging scans  ║
+║  [✅]  "Memory Hacker"         → MLX overhead bypassed  ║
+║  [✅]  "4-Bit Surgeon"         → 16-bit → 4-bit quant   ║
+║  [🔄]  "MLX Whisperer"        → Llama-3-8B-4bit Day 37 ║
+║  [🔄]  "RAG Architect"        → Full RAG system Day 50  ║
+║  [🔄]  "Model Surgeon"        → LoRA fine-tune Day 53   ║
 ╚═════════════════════════════════════════════════════════╝
 ```
 
 ---
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/74038190/212747107-5b654ba5-31c6-4366-b42b-51b822e9bc52.gif" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0E75B6,50:00C9FF,100:8A2BE2&height=100&section=footer&animation=fadeIn" width="100%"/>
 </div>
 
 <div align="center">
