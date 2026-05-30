@@ -367,9 +367,9 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 ║  [✅]  "4-Bit Surgeon"         → HF → 4-bit MLX quant   ║
 ║  [✅]  "Chat Whisperer"        → Streaming + top-p done ║
 ║  [✅]  "Phase 4 Cleared"       → Vision+MLX complete    ║
-║  [🔄]  "RAG Architect"        → LangChain RAG Day 41+   ║
-║  [🔄]  "Model Surgeon"        → LoRA fine-tune Day 53   ║
-║  [🔄]  "Shipped to Prod"      → Streamlit UI Day 55     ║
+║  [🔄]  "RAG Architect"         → LangChain RAG Day 41+  ║
+║  [🔄]  "Model Surgeon"         → LoRA fine-tune Day 53  ║
+║  [🔄]  "Shipped to Prod"       → Streamlit UI Day 55    ║
 ╚═════════════════════════════════════════════════════════╝
 ```
 
