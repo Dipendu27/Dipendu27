@@ -29,7 +29,7 @@ from:     Kalyani, West Bengal, India 🇮🇳
 roles:
   - QA Engineer → DevOps Cloud Tester
   - AIML Engineer (60-Day Journey)
-hardware: MacBook Pro M5
+hardware: MacBook Pro M5 (16GB RAM)
 building:
   - Privacy-first local RAG system
   - Cloud CI/CD automation pipelines
@@ -380,5 +380,3 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 *"Two journeys. One engineer. Infinite pipelines."*
 
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:00C9FF,100:8A2BE2&height=140&section=footer" width="100%"/>
