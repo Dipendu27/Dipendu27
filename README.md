@@ -28,12 +28,14 @@ name:     Dipendu Mukherjee
 from:     Kalyani, West Bengal, India 🇮🇳
 roles:
   - QA Engineer → DevOps Cloud Tester
-  - AIML Engineer (60-Day Journey)
+  - AIML Engineer (60-Day Journey ✅)
 hardware: MacBook Pro M5 (16GB RAM)
-building:
-  - Privacy-first local RAG system
-  - Cloud CI/CD automation pipelines
-  - Apple MLX + PyTorch MPS workflows
+built:
+  - Privacy-first local RAG system ✅
+  - Cloud CI/CD automation pipelines ✅
+  - Apple MLX + PyTorch MPS workflows ✅
+  - LoRA fine-tuned Llama-3-8B-4bit ✅
+  - Full Streamlit RAG UI ✅
 targets:
   - Software Testing Roles
   - ML/AI companies
@@ -158,7 +160,7 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 <a href="https://github.com/Dipendu27/ML_Engineering">
 <img src="https://img.shields.io/badge/Repo-ML__Engineering-8A2BE2?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-<img src="https://img.shields.io/badge/Status-Day%2040%2F60%20Complete-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Day%2061%2F60%20COMPLETE%20🎉-success?style=for-the-badge"/>
 </div>
 
 <br/>
@@ -191,7 +193,7 @@ LOCAL → GitHub → CI/CD → AWS Cloud
         │ semantic search
         ▼
  🤖 Llama-3-8B-4bit  MLX
-    local MPS generation
+    LoRA fine-tuned ✅
         │
         ▼
  🖥️  Streamlit  browser UI
@@ -217,11 +219,11 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 
 ```
 📄 PDFs → LangChain → Chunks
-    → Embeddings → ChromaDB
-    → Semantic Search
+    → BGE-Small Embeddings
+    → ChromaDB Vector Store
     → Llama-3-8B-4bit (MLX)
-    → LoRA fine-tuned
-    → Streamlit UI
+    → LoRA fine-tuned ✅
+    → Streamlit UI ✅
     → 100% LOCAL ✅
 ```
 
@@ -231,8 +233,8 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 | 📊 Classical ML | 11–20 | ✅ Complete |
 | 🧠 Deep Learning | 21–30 | ✅ Complete |
 | 👁️ Vision + MLX | 31–40 | ✅ Complete |
-| ⚙️ Agentic RAG | 41–50 | 🔄 Day 41/50 |
-| 🚀 Fine-Tune + Ship | 51–60 | ⏳ Upcoming |
+| ⚙️ Agentic RAG | 41–50 | ✅ Complete |
+| 🚀 Fine-Tune + Ship | 51–61 | ✅ Complete 🎉 |
 
 </td>
 </tr>
@@ -287,8 +289,30 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 [✅] Day 39 — Hardware Acceleration: full M5 neural engine utilization
 [✅] Day 40 — Inference Optimization: temperature, top-p & max token tuning
 
-# 🔄 PHASE 5 IN PROGRESS — Agentic RAG (Days 41–50)
-[🔄] Day 41 — Document Ingestion: setting up the LangChain pipeline...
+# ✅ PHASE 5 COMPLETE — Agentic RAG (Days 41–50)
+[✅] Day 41 — Document Ingestion: LangChain pipeline setup
+[✅] Day 42 — PDF Parsing: reading and extracting text from clinical PDFs
+[✅] Day 43 — Chunking: splitting documents into optimized semantic chunks
+[✅] Day 44 — Embedding Generation: batch processing chunks into vectors
+[✅] Day 45 — Vector Storage Setup: initializing the RAG ChromaDB database
+[✅] Day 46 — Populating ChromaDB: inserting chunked embeddings securely
+[✅] Day 47 — Semantic Search: querying the database for nearest neighbors
+[✅] Day 48 — Orchestration Logic: programming the agentic retrieval step
+[✅] Day 49 — LLM Integration: MLX LLM reads chunks and answers questions
+[✅] Day 50 — RAG Fusion: end-to-end Q&A loop tested and working
+
+# ✅ PHASE 6 COMPLETE — Fine-Tune, UI & Deploy (Days 51–61)
+[✅] Day 51 — PEFT & LoRA: intro to Parameter-Efficient Fine-Tuning
+[✅] Day 52 — Dataset Prep: medical terminology corpus for fine-tuning
+[✅] Day 53 — MLX Fine-Tuning: LoRA on Llama-3-8B-4bit within 16GB
+[✅] Day 54 — Merging Weights: applying LoRA adapters to the base model
+[✅] Day 55 — Streamlit UI: intro to browser-based chat interface
+[✅] Day 56 — UI Development: modern Streamlit chat frontend built
+[✅] Day 57 — UI Integration: Streamlit frontend connected to RAG backend
+[✅] Day 58 — Profiling: memory usage reviewed across the full pipeline
+[✅] Day 59 — Optimization: chunk sizes + prompts tuned for M5 max speed
+[✅] Day 60 — Shipping: README finalized and pushed to GitHub
+[✅] Day 61 — 🎉 JOURNEY COMPLETE: full local RAG system shipped on M5
 ```
 
 ---
@@ -311,6 +335,7 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 | **Computer Vision** | torchvision, YOLO-MLX, MPS object detection, medical imaging |
 | **LLM & RAG** | Llama-3-8B-4bit, TinyLlama, mlx-lm, LangChain, ChromaDB, Hugging Face, LoRA, Streamlit |
 | **Quantization** | 4-bit / 16-bit compression, mlx-lm quantized models, temperature + top-p tuning |
+| **Fine-Tuning** | PEFT, LoRA adapters, MLX fine-tuning, weight merging |
 | **Data Engineering** | NumPy, Pandas, Matplotlib, Seaborn |
 | **QA & Testing** | Newman, Postman, curl, jq, Bash automation |
 | **Languages** | Python 3.11, Bash, Java, C++ |
@@ -349,7 +374,7 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 ║  [✅]  "Never Sleeps"          → 24/7 cron on cloud     ║
 ║  [✅]  "Big Brother"           → CloudWatch on all      ║
 ║  [✅]  "Silicon Whisperer"     → M5 GPU 1.69x faster    ║
-║  [✅]  "Data Doctor"           → 40 ML scripts done     ║
+║  [✅]  "Data Doctor"           → 61 ML scripts done     ║
 ║  [✅]  "Tree Surgeon"          → DecisionTree + RF      ║
 ║  [✅]  "Gradient Descent"      → XGBoost + MLX backprop ║
 ║  [✅]  "Neural Architect"      → MLP trained on MPS     ║
@@ -363,9 +388,11 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 ║  [✅]  "MLX Whisperer"         → Llama-3-8B-4bit local  ║
 ║  [✅]  "Chat Whisperer"        → Streaming + top-p done ║
 ║  [✅]  "Phase 4 Cleared"       → Vision+MLX complete    ║
-║  [🔄]  "RAG Architect"         → LangChain RAG Day 41+  ║
-║  [🔄]  "Model Surgeon"         → LoRA fine-tune Day 53  ║
-║  [🔄]  "Shipped to Prod"       → Streamlit UI Day 55    ║
+║  [✅]  "RAG Architect"         → Full RAG pipeline done ║
+║  [✅]  "Doc Whisperer"         → PDFs → ChromaDB live   ║
+║  [✅]  "Model Surgeon"         → LoRA fine-tune on M5   ║
+║  [✅]  "Shipped to Prod"       → Streamlit UI live      ║
+║  [✅]  "60-Day Survivor"       → All phases complete 🎉 ║
 ╚═════════════════════════════════════════════════════════╝
 ```
 
