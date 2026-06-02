@@ -355,8 +355,8 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 </div>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Dipendu27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9FF&icon_color=0E75B6&text_color=FFFFFF&count_private=true&include_all_commits=true&rank_icon=github&cache_seconds=86400" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dipendu27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9FF&text_color=FFFFFF&langs_count=8&cache_seconds=86400" width="38%"/>
+<img src="https://github-stats-extended.vercel.app/api?username=Dipendu27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9FF&icon_color=0E75B6&text_color=FFFFFF&cache_seconds=86400" width="48%"/>
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Dipendu27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9FF&text_color=FFFFFF&langs_count=8&cache_seconds=86400" width="38%"/>
 </div>
 
 ---
