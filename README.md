@@ -355,8 +355,13 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 </div>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Dipendu27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9FF&icon_color=0E75B6&text_color=FFFFFF&count_private=true&include_all_commits=true&rank_icon=github" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dipendu27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00C9FF&text_color=FFFFFF&langs_count=8" width="38%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Dipendu27&theme=tokyonight" width="96%"/>
+</div>
+
+<div align="center">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Dipendu27&theme=tokyonight" width="32%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Dipendu27&theme=tokyonight" width="32%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Dipendu27&theme=tokyonight&utcOffset=5.5" width="32%"/>
 </div>
 
 ---
