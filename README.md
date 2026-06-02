@@ -351,7 +351,7 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 </div>
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Dipendu27&theme=tokyonight&hide_border=true&background=0D1117&stroke=0D1117&fire=FF5900&sideNums=00C9FF&currStreakNum=0E75B6&ring=0E75B6&dates=FFFFFF" width="65%"/>
+<img src="https://streak-stats.demolab.com?user=Dipendu27&theme=tokyonight&hide_border=true&background=0D1117&stroke=0D1117&fire=FF5900&sideNums=00C9FF&currStreakNum=0E75B6&ring=0E75B6&dates=FFFFFF" width="65%"/>
 </div>
 
 <div align="center">
