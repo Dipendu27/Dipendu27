@@ -240,80 +240,6 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 </tr>
 </table>
 
-```bash
-# ✅ PHASE 1 COMPLETE — Foundations (Days 1–10)
-[✅] Day 1  — Hardware: PyTorch MPS + Apple MLX on M5 verified
-[✅] Day 2  — NumPy biomarkers + Pandas clinical data imputation
-[✅] Day 3  — MLX dot products: Hypertension vs BP = 0.74
-[✅] Day 4  — MLX autograd: loss=17.0, gradient=14.0
-[✅] Day 5  — EDA: 5,110 patient records, 201 missing BMI values flagged
-[✅] Day 6  — Data cleaning: median BMI imputed, RAG text profiles serialized
-[✅] Day 7  — ChromaDB: semantic patient retrieval working locally
-[✅] Day 8  — Backprop: weight optimized to 4.97 (target: 5.0)
-[✅] Day 9  — Matplotlib/Seaborn: age dist, BMI scatter, heatmap dashboard
-[✅] Day 10 — Real-world EDA: messy Kaggle-style data cleaned & visualized
-
-# ✅ PHASE 2 COMPLETE — Classical ML (Days 11–20)
-[✅] Day 11 — Linear Regression: BP predictor, MAE = 3.63 mmHg
-[✅] Day 12 — Logistic Regression: hypertension classifier, 84.5% accuracy
-[✅] Day 13 — Decision Tree: priority follow-up classifier, 100% accuracy
-[✅] Day 14 — Random Forest: readmission classifier, feature importance chart
-[✅] Day 15 — XGBoost: diabetes risk, 83.67% accuracy, 64.4% confidence
-[✅] Day 16 — XGBoost tuning: saved $213/prediction via RandomizedSearchCV
-[✅] Day 17 — K-Means: 3 patient clusters discovered from unlabeled data
-[✅] Day 18 — PCA: 30D → 2D, retained 63.24% variance
-[✅] Day 19 — Model eval: ROC-AUC=0.963 on rare-disease imbalanced dataset
-[✅] Day 20 — ML Pipeline: SMOTE + Random Forest + threshold tuning
-
-# ✅ PHASE 3 COMPLETE — Deep Learning (Days 21–30)
-[✅] Day 21 — PyTorch tensors: shapes, NumPy bridge, matrix multiplication
-[✅] Day 22 — MLP: nn.Module with ReLU + sigmoid, patient risk forward pass
-[✅] Day 23 — MPS benchmark: M5 GPU 1.69x faster than CPU on 10k×10k matmul
-[✅] Day 24 — Neural Network Training: BCE loss + Adam optimizer on MPS
-[✅] Day 25 — Transformers: self-attention from scratch with Q/K/V tensors
-[✅] Day 26 — Hugging Face: DistilBERT pipeline + manual tokenizer inference
-[✅] Day 27 — NLP Processing: BERT tokenizer, padding, attention masks
-[✅] Day 28 — Vectorization: MiniLM sentence embeddings + cosine similarity
-[✅] Day 29 — Model Benchmarking: MiniLM vs BGE-Small on 500-doc corpus
-[✅] Day 30 — ChromaDB RAG: BGE-Small embeddings + semantic retrieval
-
-# ✅ PHASE 4 COMPLETE — Vision + MLX (Days 31–40)
-[✅] Day 31 — Local LLM: TinyLlama-1.1B-Chat via Hugging Face on MPS
-[✅] Day 32 — YOLO-MLX: real-time object detection natively on Mac MPS
-[✅] Day 33 — Medical Imaging: vision applied to anomaly detection in scans
-[✅] Day 34 — Memory Optimization: bypassing PyTorch overheads for MLX
-[✅] Day 35 — Apple MLX LLM: intro to local text generation via MLX engine
-[✅] Day 36 — Model Quantization: 16-bit → 4-bit compression for 16GB RAM
-[✅] Day 37 — Downloading Quantized Models: mlx-lm + Llama-3-8B-4bit
-[✅] Day 38 — Local Inference: scripts to generate text natively on M5
-[✅] Day 39 — Hardware Acceleration: full M5 neural engine utilization
-[✅] Day 40 — Inference Optimization: temperature, top-p & max token tuning
-
-# ✅ PHASE 5 COMPLETE — Agentic RAG (Days 41–50)
-[✅] Day 41 — Document Ingestion: LangChain pipeline setup
-[✅] Day 42 — PDF Parsing: reading and extracting text from clinical PDFs
-[✅] Day 43 — Chunking: splitting documents into optimized semantic chunks
-[✅] Day 44 — Embedding Generation: batch processing chunks into vectors
-[✅] Day 45 — Vector Storage Setup: initializing the RAG ChromaDB database
-[✅] Day 46 — Populating ChromaDB: inserting chunked embeddings securely
-[✅] Day 47 — Semantic Search: querying the database for nearest neighbors
-[✅] Day 48 — Orchestration Logic: programming the agentic retrieval step
-[✅] Day 49 — LLM Integration: MLX LLM reads chunks and answers questions
-[✅] Day 50 — RAG Fusion: end-to-end Q&A loop tested and working
-
-# ✅ PHASE 6 COMPLETE — Fine-Tune, UI & Deploy (Days 51–61)
-[✅] Day 51 — PEFT & LoRA: intro to Parameter-Efficient Fine-Tuning
-[✅] Day 52 — Dataset Prep: medical terminology corpus for fine-tuning
-[✅] Day 53 — MLX Fine-Tuning: LoRA on Llama-3-8B-4bit within 16GB
-[✅] Day 54 — Merging Weights: applying LoRA adapters to the base model
-[✅] Day 55 — Streamlit UI: intro to browser-based chat interface
-[✅] Day 56 — UI Development: modern Streamlit chat frontend built
-[✅] Day 57 — UI Integration: Streamlit frontend connected to RAG backend
-[✅] Day 58 — Profiling: memory usage reviewed across the full pipeline
-[✅] Day 59 — Optimization: chunk sizes + prompts tuned for M5 max speed
-[✅] Day 60 — Shipping: README finalized and pushed to GitHub
-[✅] Day 61 — 🎉 JOURNEY COMPLETE: full local RAG system shipped on M5
-```
 
 ---
 
@@ -365,7 +291,7 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 
 ```
 ╔═════════════════════════════════════════════════════════╗
-║                     ACHIEVEMENT LOG                     ║
+║                   ACHIEVEMENT LOG                       ║
 ╠═════════════════════════════════════════════════════════╣
 ║  [✅]  "Script Kiddie No More" → Bash automation        ║
 ║  [✅]  "Ship It"               → CI/CD GitHub Actions   ║
@@ -392,7 +318,7 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 ║  [✅]  "Doc Whisperer"         → PDFs → ChromaDB live   ║
 ║  [✅]  "Model Surgeon"         → LoRA fine-tune on M5   ║
 ║  [✅]  "Shipped to Prod"       → Streamlit UI live      ║
-║  [✅]  "60-Day Survivor"       → All phases complete 🎉║
+║  [✅]  "60-Day Survivor"       → All phases complete 🎉 ║
 ╚═════════════════════════════════════════════════════════╝
 ```
 
