@@ -29,7 +29,7 @@ from:     Kalyani, West Bengal, India 🇮🇳
 roles:
   - QA Engineer → DevOps Cloud Tester
   - AIML Engineer (60-Day Journey ✅)
-hardware: MacBook Pro M5 (10 Core CPU | 10 Core GPU)
+hardware: MacBook Pro M5 (16 GB | 10 Core CPU | 10 Core GPU)
 built:
   - Privacy-first local RAG system ✅
   - Cloud CI/CD automation pipelines ✅
