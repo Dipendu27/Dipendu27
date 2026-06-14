@@ -318,7 +318,7 @@ LOCAL → GitHub → CI/CD → AWS Cloud
 ║  [✅]  "Doc Whisperer"         → PDFs → ChromaDB live   ║
 ║  [✅]  "Model Surgeon"         → LoRA fine-tune on M5   ║
 ║  [✅]  "Shipped to Prod"       → Streamlit UI live      ║
-║  [✅]  "60-Day Survivor"       → All phases complete🎉 ║
+║  [✅]  "60-Day Survivor"       → All phases complete🎉  ║
 ╚═════════════════════════════════════════════════════════╝
 ```
 
