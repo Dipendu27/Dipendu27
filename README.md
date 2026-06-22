@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0E75B6,100:00C9FF&height=220&section=header&text=DIPENDU%20MUKHERJEE&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=DevOps%20Cloud%20Engineer%20%7C%20AIML%20Engineer%20%7C%20QA%20Automation&descAlignY=62&descSize=17" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0E75B6,100:00C9GFF&height=220&section=header&text=DIPENDU%20MUKHERJEE&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=DevOps%20Cloud%20Engineer%20%7C%20AIML%20Engineer%20%7C%20QA%20Automation&descAlignY=62&descSize=17" width="100%"/>
 
 <div align="center">
 
