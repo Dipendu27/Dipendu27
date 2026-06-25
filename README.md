@@ -51,7 +51,7 @@ motto: "Automate the pipeline.
 
 <br/><br/>
 
-<a href="https://dipendu-mukherjee-portfolio.vercel.app/">
+<a href="https://dipendu-mukherjee.vercel.app">
   <img src="https://img.shields.io/badge/🌐_Portfolio-Visit-0E75B6?style=for-the-badge"/>
 </a>
 <a href="https://www.linkedin.com/in/dipendu-mukherjee-4199a8226">
